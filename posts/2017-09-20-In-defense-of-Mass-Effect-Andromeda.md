@@ -1,0 +1,84 @@
+<meta name="description" content="As previously published on Polygon." />
+<meta name="twitter:description" content="As previously published on Polygon." />
+<h1 class="h1-title">In defense of Mass Effect: Andromeda</h1>
+<p class="post-date">
+  <time datetime="2017-09-2019:22:00+00:00" itemprop="datePublished">September 20, 2017</time>
+</p>
+
+*As previously published on [Polygon](https://www.polygon.com/2017/9/20/16332958/mass-effect-andromeda-defense-messy-games).*
+
+*Mass Effect: Andromeda* is a mess. Disregard its (now-rectified) technical errors; the narrative pacing is incredibly uneven, stopping and starting without rhythm. It’s about thirty hours too long. Major story beats appear out of nowhere, dozens of hours into the experience; and of course — spoiler alert — no fewer than three major story threads are left on cliffhangers.
+
+It’s also one of the most inspiring, optimistic science fiction stories in games this year, and I think you should play it.
+
+Why? Well, within Mass Effect: Andromeda’s ambivalent pacing is a great deal of nuance and care in the *details*. The moment-to-moment writing is absolutely superb. The characters are engrossing and endearing; the moments in the corners of their stories are tense and affective, experienced a little at a time. Andromeda has all the hallmarks of a cult classic; the game feels like a television spinoff of a beloved film trilogy.
+
+But it’s *not* television. It’s a video game, a single release that’s been five years in the making. And that changes how it’s received.
+
+This phenomenon isn’t isolated to a single game. The ambition, and subsequent execution, of Hello Games’ No Man’s Sky, or Gearbox Software’s Battleborn, have been dissected by critics and enthusiasts since their releases. We obsessively regard these games’ legacies as disappointments, as if they’re irredeemable. And yet, there are at least a *few* people quietly enjoying them.
+
+Enter “messy” games.
+
+## Taking inspiration from a mess
+
+I design games, but I’ve been chasing messes for the length of my career — and even before. My academic background is in film studies. When I was in school, every other student, invariably, tended to have a favorite film that was, in their own words, a “beautiful mess.” Even then, I was curious, because I couldn’t think of a single *game* championed in the same way.
+
+Sure, there’s the over-the-top games, the messy Japanese auteurs that we knew how to understand. We passed around copies of Deadly Premonition or Earth Defense Force. But when it came to games with a simple lack of cohesion (without the charisma or the “exotic” connotations), the games that were a messy, primordial idea stew that denied flamboyance or pretense, it was, and *is*, hard to find apologists years later.
+
+Even today, I’d love to be *behind* the production of a beautiful mess of my own. Messy, interesting games are hotbeds of inspiration: I’d even say they’re why I make games. They inadvertently challenge what I think a game can be. After all, we think of games as polished, smooth stones, instead of misdirected experiments.
+
+Messy games often take bold steps by experimenting with their form (Eternal Darkness); they might employ a narrative gimmick that doesn’t execute well (Indigo Prophecy, or Geist), or hint at something sinister and intriguing in the corners of their misdirection. This happens even if it’s from a bug, like in Sherlock Holmes: Nemesis. These games take steps, ironically, *beyond* what their perfection would’ve accomplished.
+
+Messy games just tend to take half-steps in *every single direction* at once, and how do you make something out like that when you’re playing? How do you argue that other people should give these games a chance?
+
+You do so by reclaiming the elements that work, and you champion the game for it. And you do that with a toolkit for discussion and analysis.
+
+## Designing a mess: films vs. games
+
+We don’t quite have an agreed definition for “messy” media yet. Sometimes we say something like “lacks direction,” “doesn’t quite cohere,” or was “all over the place.” This is, of course, separate from what some critics call “jankyness,” when the systems of an otherwise well-directed game are unreliably or imperfectly executed.
+
+Messiness *intrigues*: critics, journalists and podcasters alike are often dedicated to guessing at how these films and games came to be. Surely it must be studio input overstepping the artistry of the team, or mismanagement on some level. Maybe it was, ultimately, the poor choices of a novice auteur. For whatever reason, the ingredients don’t quite come together in an appetizing way.
+
+In film, the “beautiful messes” I mentioned don’t wrap up neatly. Sometimes they were ambitious, intricate, feature-length moodboards. Sometimes the Kuleshov effect didn’t provide the meaning the film crew was planning, but instead created something much more intriguing.
+
+Yet, overall, these films were something separate, maybe even special, compared to the technical masterworks of Hollywood or the layered puzzles of the art cinema. They were more personal to us, because they were so authentically imperfect and vulnerable. Think of the Speed Racers of the world. The Jupiter Ascendings.
+
+Mine was — pause to laugh — Donnie Darko. As a child, I found the movie “deep” and “puzzling.” I still love it as an adult. It’s *incredibly* messy: the film was supposedly written to the songs on the soundtrack, and it’s apparent.
+
+Donnie Darko is more music video than film. the director’s cut dissolved the mystique of the film by clarifying what the plot was supposed to mean. Donnie Darko takes place in a time period it doesn’t quite embody or represent. The setting is a dark and hazy version of the “late 1980s.” But all this adds up to something absolutely *wonderful* to live in.
+
+When I graduated out of film school, and started working in games, I was surprised not only by the gargantuan amount of work game development required compared to film, but by the flippant responses anything other than a perfect landing would receive — from both journalists and the general public.
+
+These imperfections made the games into running jokes, to be revisited, occasionally, five or ten years later in an apologist’s reclamation on YouTube. There was no process, no streaming options or word of mouth at gaming stores, that would turn them into cult classics.
+
+Video games have far more ingredients to handle among potentially hundreds more individuals involved in the process of creating them: they’re not just made up of the mise-en-scene, editing and sound design. Games involve the complex interplay between systems of play, reward systems, narrative design and writing, sound design, UI design ... the list goes on.
+
+So why is it much more difficult to discuss the redeeming factors of games that don’t quite cohere, when it describes so many of them?
+
+## Revisiting the first mess
+
+Let’s revisit the first example. If the original Mass Effect trilogy asks “What do we do with synthetic life if it becomes *like* us?” then Mass Effect: Andromeda revises the question for our new decade. “What do we do with synthetic life if it *is* us?”
+
+Andromeda introduces a hybrid synthetic-organic relationship from the beginning. You are the only person to have “SAM,” your AI, deeply integrated into your body. This relationship is formed slowly, tested and ultimately solidified. But the connection between human consciousness and artificial intelligence as a story focus is not immediately apparent.
+
+The central question is asked alongside questions about the naïveté of explorers in a hostile new territory, the baggage of old relations between species and the dissolution of a family unit. These questions constantly hijack each other, making the game feel unfocused instead of sprawling.
+
+Mass Effect: Andromeda complicates its questions about identity and personhood with its “messiness.” It has questions it isn’t sure it’s asking. But that doesn’t lead it to being a waste of anyone’s effort, nor is it a joke. This issue showed us something more raw than we expected about the studio process by creating that story. The synthetic/organic relationship felt more personal because it was given some space to be explored honestly. It wasn’t honed or buffed away during the production.
+
+And yes, it’s still great in spite of that rawness. Maybe it’s great *because* of the authenticity that rawness provides. So why was this left out of so much of the discussion around the game?
+
+## How do we discuss messes?
+
+Discussing video games and interactive media is difficult when we can’t point to causal theories of interaction, and when the average gamer can’t qualify what “gamefeel” is, or why something “seems like a mess.” For example, when critics and scholars discuss films, they might reference apparatus theory, which is that the cinema is the apparatus in which we identify with “looking”, before all else. This identification we form with the act of looking is a very fragile connection that can be “attacked” when something makes us aware of the framework of viewing.
+
+Think of films like The Ring that are based on the premise that the sight of a television is fatal. Or even in the YouTube short [Too Many Cooks](https://www.youtube.com/watch?v=QrGrOK8oZG8), where they manipulate and transform the “framework” around the title credits and play with genres of television in order to make you aware of being watched back. Film has methods by which they can call into question how or even why you’re watching them.
+
+I don’t know how to break down what happens when I play a game in quite the same way I can explain why I enjoyed what a film was doing. Film’s formal elements have been explained as tools to accomplish a purpose (that is, the cinematography, the sound design and so on). I can’t explain what connection or identification I form when I hold a controller, and this lack of language limits how I can discuss or appreciate games. It holds us *all* back.
+
+We don’t yet have a critical structure that supports or fosters an appreciation of the misapplication of game language that causes “messiness.” And this is a major problem. We deny our own power as an audience to define the works we experience without that language. And this means it’s easier to instead foster a cycle where a game rapidly lands or rapidly doesn’t, while forgetting anything beyond technical excellence.
+
+Our distribution networks aren’t making this task any easier: Steam is becoming [increasingly flooded](https://kotaku.com/nearly-40-of-all-steam-games-were-released-in-2016-1789535450) with releases, and there’s certainly no curators on Valve’s payroll. There’s also little support left today for the curator recommendation system originally put forward. Instead? Metascores and [review bombing](https://thenextweb.com/gaming/2017/09/13/steam-reviews-battleground-following-pewdiepie-controversy/).
+
+My own games are released on itch.io, where there’s at least an [earnest effort](https://itch.io/digest?tag=itchio-recommends) by their staff to curate and feature new releases by their community every week. But this is just one sliver of our industry: independent releases on a single marketplace. Cult classics aren’t created with high metascores; they’re born and reborn over and over again with a single person’s opinion.
+
+It’s true! It could be you. You can always take the first step, and it’s as simple as reclaiming what’s been discarded. When a game becomes a joke, investigate for yourself. Don’t ask why a game is terrible, ask why so many are so casually dismissed.
