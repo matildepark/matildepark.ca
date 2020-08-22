@@ -4,7 +4,7 @@
 #include <string.h>
 #include <unistd.h>
 
-#define STR_BUF_LEN 64
+#define STR_BUF_LEN 96
 
 char *html_head =
   "<!DOCTYPE html>\n<html lang='en'>\n\t<head>\n\t\t<meta charset='utf-8'/>\n\t\t"
