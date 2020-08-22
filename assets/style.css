@@ -279,7 +279,7 @@ ul li a {
     font-size: 3rem
   }
 
-  main a:not(.footnote, time, div.post-block h2, div.project-block):after {
+  main a:not(.footnote, time, .post-date, div.post-block h2, div.project-block):after {
     content: " ["attr(href) "]";
     font-size: 0.6rem
   }
@@ -694,7 +694,7 @@ footer p {
   font-size: 0.9rem
 }
 
-time {
+time, .post-date {
   font-size: 0.7rem;
   font-weight: 400;
   color: #666
@@ -893,7 +893,7 @@ body,
     margin-left: -5vw
   }
 
-  main ptime {
+  main p time {
     margin-left: -5vw
   }
 
