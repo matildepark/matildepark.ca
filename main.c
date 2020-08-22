@@ -56,7 +56,7 @@ void build_page(char *name, char *dirname) {
   fprintf(f, html_head, myheader, myheader);
   fputs(html_header, f);
 
-  fprintf(f, "<main>");
+  fprintf(f, "<main>\n");
   char buffer[4096];
   FILE *fp = fopen(incpath, "r");
   if(fp == NULL){ return; }
