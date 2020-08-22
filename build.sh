@@ -44,12 +44,13 @@ do
   if [[ $post =~ $dateregex ]]
   then
     date="${BASH_REMATCH[1]}"
-    echo -en "<a class='post-date' href=\"./${p}\">${date}</a>\n\t" >> index.html
+    echo -en "<time>${date}</time>\n\t" >> index.html
   fi
   if [[ $post =~ $titleregex ]]
   then
     title="${BASH_REMATCH[1]}"
-    echo -en "<h2 class='highlighter'>\n\t\t<a href=\"./${p}\">${title}</a></h2>\n\t" >> index.html
+    mv $p "$title.html"
+    echo -en "<h2 class='highlighter'>\n\t\t<a href=\"./${title}.html\">${title}</a></h2>\n\t" >> index.html
   fi
   if [[ $post =~ $descregex ]]
   then
