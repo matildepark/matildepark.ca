@@ -1,4 +1,4 @@
-# curriculum vitae
+<h1 class="h1-title">curriculum vitae</h1>
 
 I'm a software and interactive media developer. My professional work has so far been focused on executing front-end and creating self-contained developer onboarding products. My narrative work emphasises an interest in formal experimentation across computer interfaces and recontextualising experience into components of the posthuman.
 

@@ -1,4 +1,4 @@
-# about
+<h1 class="h1-title">about</h1>
 
 I'm a software and interactive media developer based in Toronto. I'm a strong generalist, the dreaded "creative technologist," with experience working in (and sometimes leading) various teams in self-owned, creative and professional environments across tech.
 
