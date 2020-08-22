@@ -7,31 +7,31 @@
 #define STR_BUF_LEN 64
 
 char *html_head =
-  "<!DOCTYPE html><html lang='en'><head><meta charset='utf-8'/>"
-  "<meta name='viewport' content='width=device-width, initial-scale=1'/>"
-  "<meta name='twitter:card' content='summary_large_image' />"
-  "<meta name='twitter:site' content='@matildepark_' />"
-  "<meta name='twitter:creator' content='@matildepark_' />"
-  "<meta name='twitter:title' content=\"%s / hello, i'm matilde park\" />"
-  "<title>%s / hello, i'm matilde park</title>"
-  "<link rel='stylesheet' href='/assets/style.css'/></head><body>";
+  "<!DOCTYPE html>\n<html lang='en'>\n\t<head>\n\t\t<meta charset='utf-8'/>\n\t\t"
+  "<meta name='viewport' content='width=device-width, initial-scale=1'/>\n\t\t"
+  "<meta name='twitter:card' content='summary_large_image' />\n\t\t"
+  "<meta name='twitter:site' content='@matildepark_' />\n\t\t"
+  "<meta name='twitter:creator' content='@matildepark_' />\n\t\t"
+  "<meta name='twitter:title' content=\"%s / hello, i'm matilde park\" />\n\t\t"
+  "<title>%s / hello, i'm matilde park</title>\n\t\t"
+  "<link rel='stylesheet' href='/assets/style.css'/>\n\t</head>\n<body>\n";
 
 char *html_header =
-  "<nav><a class='site-title' href='/'>hello, i'm matilde park</a>"
-  "<li><a href='/about'>about</a></li>"
-  "<li><a href='/cv'>curriculum vitae</a></li>"
-  "<li><a href='/projects'>projects</a></li>"
-  "<li><a href='/posts'>weblog</a></li></nav>";
+  "<nav>\n\t<a class='site-title' href='/'>hello, i'm matilde park</a>\n\t"
+  "<li><a href='/about'>about</a></li>\n\t"
+  "<li><a href='/cv'>curriculum vitae</a></li>\n\t"
+  "<li><a href='/projects'>projects</a></li>\n\t"
+  "<li><a href='/posts'>weblog</a></li></nav>\n\t";
 
 char *html_footer =
-  "</body><footer class='border-top clearfix'><p>"
+  "</body>\n<footer class='border-top clearfix'>\n\t<p>\n\t\t"
   "<a href='https://webring.xxiivv.com/#131' target='_blank' "
-  "rel='noopener noreferrer'>"
+  "rel='noopener noreferrer'>\n\t\t\t"
   "<img src='https://webring.xxiivv.com/icon.black.svg' "
-  "style='height: 1.5rem;display: inline-block;vertical-align: top;'/></a> "
+  "style='height: 1.5rem;display: inline-block;vertical-align: top;'/>\n\t\t\t</a>\n\t\t "
   "© 2020 matilde park · articles & written content available under "
-  "<a href='https://creativecommons.org/licenses/by/4.0/'>cc by 4.0</a> "
-  "</p></footer></html>";
+  "<a href='https://creativecommons.org/licenses/by/4.0/'>cc by 4.0</a>\n\t\t "
+  "</p>\n\t</footer>\n</html>";
 
 void build_page(char *name) {
   if(strcmp(name,".") == 0){ return; }
@@ -89,7 +89,7 @@ void processdir(char *incdir) {
 
 int main(void) {
   chdir("./temp");
-  processdir("./about");
+  processdir("./posts");
   // processdir("./cv");
   // processdir("./posts");
   // processdir("./projects");
