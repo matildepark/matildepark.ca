@@ -33,15 +33,16 @@ char *html_footer =
   "<a href='https://creativecommons.org/licenses/by/4.0/'>cc by 4.0</a>\n\t\t "
   "</p>\n\t</footer>\n</html>";
 
-void build_page(char *name) {
+void build_page(char *name, char *dirname) {
   if(strcmp(name,".") == 0){ return; }
   if(strcmp(name,"..") == 0){ return; }
 
   printf("Building %s\n", name);
 
   char *filename = name;
+  char *folder = dirname;
   char filepath[STR_BUF_LEN];
-  snprintf(filepath, STR_BUF_LEN, "../site/%s", filename);
+  snprintf(filepath, STR_BUF_LEN, "../site/%s/%s", folder, filename);
   FILE *f = fopen(filepath, "w");
 
   char incpath[STR_BUF_LEN];
@@ -76,22 +77,22 @@ void build_page(char *name) {
   fclose(f);
 }
 
-void processdir(char *incdir) {
+void processdir(char *incdir, char *dirname) {
   DIR *d = opendir(incdir);
   struct dirent *dir;
   if (!d) { return; }
 
   while ((dir = readdir(d)) != NULL) {
-    build_page(dir->d_name);
+    build_page(dir->d_name, dirname);
   }
   closedir(d);
 }
 
 int main(void) {
   chdir("./temp");
-  processdir("./posts");
-  // processdir("./cv");
-  // processdir("./posts");
-  // processdir("./projects");
+  processdir("./about", "about");
+  // processdir("./cv", "cv");
+  // processdir("./posts", "posts");
+  // processdir("./projects", "projects");
   return (0);
 }
