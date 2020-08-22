@@ -41,32 +41,35 @@ void build_page(char *name) {
 
   char *filename = name;
   char filepath[STR_BUF_LEN];
-  printf("%s", filename);
-  printf("%s", filepath);
-  snprintf(filepath, STR_BUF_LEN, "./%s", filename);
+  snprintf(filepath, STR_BUF_LEN, "about/%s", filename);
   FILE *f = fopen(filepath, "w");
 
   char incpath[STR_BUF_LEN];
   snprintf(incpath, STR_BUF_LEN, "./%s", filename);
 
-  fprintf(f, html_head, (int)(strlen(filename)-4), filename);
+  size_t headlen = strlen(filename);
+  if (headlen > 5) { headlen -= 5; }
+  char myheader[STR_BUF_LEN] = {0};
+  strncpy(myheader, filename, headlen);
+
+  fprintf(f, html_head, myheader, myheader);
   fputs(html_header, f);
 
-    fprintf(f, "<main>", (int)(strlen(filename)-4), filename);
-    char buffer[4096];
-    FILE *fp = fopen(incpath, "r");
-    if(fp == NULL){ return; }
+  fprintf(f, "<main>");
+  char buffer[4096];
+  FILE *fp = fopen(incpath, "r");
+  if(fp == NULL){ return; }
 
-    for (;;) {
-      size_t sz = fread(buffer, 1, sizeof(buffer), fp);
-      if (sz) {
-        fwrite(buffer, 1, sz, f);
-      } else if (feof(fp) || ferror(fp)) {
-        break;
-      }
+  for (;;) {
+    size_t sz = fread(buffer, 1, sizeof(buffer), fp);
+    if (sz) {
+      fwrite(buffer, 1, sz, f);
+    } else if (feof(fp) || ferror(fp)) {
+      break;
     }
-    fclose(fp);
-    fputs("</main>", f);
+  }
+  fclose(fp);
+  fputs("</main>", f);
 
   fputs(html_footer, f);
 
@@ -87,8 +90,8 @@ void processdir(char *incdir) {
 int main(void) {
   chdir("./site");
   processdir("./about");
-  processdir("./cv");
-  processdir("./posts");
-  processdir("./projects");
+  // processdir("./cv");
+  // processdir("./posts");
+  // processdir("./projects");
   return (0);
 }
