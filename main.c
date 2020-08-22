@@ -14,7 +14,7 @@ char *html_head =
   "<meta name='twitter:creator' content='@matildepark_' />\n\t\t"
   "<meta name='twitter:title' content=\"%s / hello, i'm matilde park\" />\n\t\t"
   "<title>%s / hello, i'm matilde park</title>\n\t\t"
-  "<link rel='stylesheet' href='/assets/style.css'/>\n\t</head>\n<body>\n";
+  "<link rel='stylesheet' href='../assets/style.css'/>\n\t</head>\n<body>\n";
 
 char *html_header =
   "<nav>\n\t<a class='site-title' href='/'>hello, i'm matilde park</a>\n\t"
@@ -42,11 +42,11 @@ void build_page(char *name, char *dirname) {
   char *filename = name;
   char *folder = dirname;
   char filepath[STR_BUF_LEN];
-  snprintf(filepath, STR_BUF_LEN, "../site/%s/%s", folder, filename);
+  snprintf(filepath, STR_BUF_LEN, "./site/%s/%s", folder, filename);
   FILE *f = fopen(filepath, "w");
 
   char incpath[STR_BUF_LEN];
-  snprintf(incpath, STR_BUF_LEN, "./%s", filename);
+  snprintf(incpath, STR_BUF_LEN, "temp/%s/%s", folder, filename);
 
   size_t headlen = strlen(filename);
   if (headlen > 5) { headlen -= 5; }
@@ -89,10 +89,9 @@ void processdir(char *incdir, char *dirname) {
 }
 
 int main(void) {
-  chdir("./temp");
-  processdir("./about", "about");
-  // processdir("./cv", "cv");
-  // processdir("./posts", "posts");
-  // processdir("./projects", "projects");
+  processdir("./temp/about", "about");
+  processdir("./temp/cv", "cv");
+  processdir("./temp/posts", "posts");
+  processdir("./temp/projects", "projects");
   return (0);
 }
