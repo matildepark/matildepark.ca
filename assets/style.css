@@ -330,7 +330,7 @@ sub {
 }
 
 .sourceCode .hll,
-.sourceCode .cf,
+.sourceCode .st,
 .sourceCode .s,
 .sourceCode .sa,
 .sourceCode .sb,
@@ -433,7 +433,7 @@ sub {
 }
 
 .sourceCode .k,
-.sourceCode .st,
+.sourceCode .cf,
 .sourceCode .o,
 .sourceCode .cp,
 .sourceCode .kc,
