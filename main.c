@@ -37,7 +37,7 @@ void build_page(char *name, char *dirname) {
   if(strcmp(name,".") == 0){ return; }
   if(strcmp(name,"..") == 0){ return; }
 
-  printf("Building %s\n", name);
+  printf("Building %s/%s\n", dirname, name);
 
   char *filename = name;
   char *folder = dirname;
