@@ -11,7 +11,55 @@ mkdir temp/projects
 cd posts
 for f in *.md; do pandoc -f markdown -t html "$f" -o "../temp/posts/${f%.md}.html";done
 
-cd ../about
+cd ../temp/posts
+
+posts=(*)
+
+# reverse array, newest date first
+min=0
+max=$(( ${#posts[@]} -1 ))
+
+while [[ min -lt max ]]
+do
+    x="${posts[$min]}"
+    posts[$min]="${posts[$max]}"
+    posts[$max]="$x"
+
+    (( min++, max-- ))
+done
+
+# grab title, desc, date
+titleregex='<h1 class="h1-title">.(.*).</h1>'
+descregex='<meta name="twitter:description" content="(.*)" \/>'
+dateregex='<time datetime=".*">(.*)</time>'
+
+# write the directory as html
+touch index.html
+echo -en '<h1 class="h1-title">blog</h1>\n' >> index.html
+
+for p in "${posts[@]}"
+do
+  echo -en '<div class="post-block">\n\t' >> index.html
+  post=$(<$p)
+  if [[ $post =~ $dateregex ]]
+  then
+    date="${BASH_REMATCH[1]}"
+    echo -en "<a class='post-date' href=\"./${p}\">${date}</a>\n\t" >> index.html
+  fi
+  if [[ $post =~ $titleregex ]]
+  then
+    title="${BASH_REMATCH[1]}"
+    echo -en "<h2 class='highlighter'>\n\t\t<a href=\"./${p}\">${title}</a></h2>\n\t" >> index.html
+  fi
+  if [[ $post =~ $descregex ]]
+  then
+    description="${BASH_REMATCH[1]}"
+    echo -en "<p>${description}</p>\n" >> index.html
+  fi
+  echo -en "</div>\n" >> index.html
+done
+
+cd ../../about
 pandoc -f markdown -t html index.md -o ../temp/about/index.html
 
 cd ../cv
