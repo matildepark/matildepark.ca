@@ -320,136 +320,142 @@ sub {
   top: 0.4rem
 }
 
-.highlight {
+.sourceCode {
   background: rgba(0, 0, 0, 0.89);
   color: #f8f8f2
 }
 
-.highlight .hll,
-.highlight .s,
-.highlight .sa,
-.highlight .sb,
-.highlight .sc,
-.highlight .dl,
-.highlight .sd,
-.highlight .s2,
-.highlight .se,
-.highlight .sh,
-.highlight .si,
-.highlight .sx,
-.highlight .sr,
-.highlight .s1,
-.highlight .ss {
+.sourceCode a {
+  display: none;
+}
+
+.sourceCode .hll,
+.sourceCode .cf,
+.sourceCode .s,
+.sourceCode .sa,
+.sourceCode .sb,
+.sourceCode .sc,
+.sourceCode .dl,
+.sourceCode .sd,
+.sourceCode .s2,
+.sourceCode .se,
+.sourceCode .sh,
+.sourceCode .si,
+.sourceCode .sx,
+.sourceCode .sr,
+.sourceCode .s1,
+.sourceCode .ss {
   color: RGBA(113, 119, 238, 1)
 }
 
-.highlight .go {
+.sourceCode .go {
   color: #44475a
 }
 
-.highlight .err,
-.highlight .g,
-.highlight .l,
-.highlight .n,
-.highlight .x,
-.highlight .p,
-.highlight .ge,
-.highlight .gr,
-.highlight .gh,
-.highlight .gi,
-.highlight .gp,
-.highlight .gs,
-.highlight .gu,
-.highlight .gt,
-.highlight .ld,
-.highlight .no,
-.highlight .nd,
-.highlight .ni,
-.highlight .ne,
-.highlight .nn,
-.highlight .nx,
-.highlight .py,
-.highlight .w,
-.highlight .bp {
+.sourceCode .err,
+.sourceCode .g,
+.sourceCode .l,
+.sourceCode .n,
+.sourceCode .x,
+.sourceCode .p,
+.sourceCode .ge,
+.sourceCode .gr,
+.sourceCode .gh,
+.sourceCode .gi,
+.sourceCode .gp,
+.sourceCode .gs,
+.sourceCode .gu,
+.sourceCode .gt,
+.sourceCode .ld,
+.sourceCode .no,
+.sourceCode .nd,
+.sourceCode .ni,
+.sourceCode .ne,
+.sourceCode .nn,
+.sourceCode .nx,
+.sourceCode .py,
+.sourceCode .w,
+.sourceCode .bp {
   color: #f8f8f2
 }
 
-.highlight .gh,
-.highlight .gi,
-.highlight .gu {
+.sourceCode .gh,
+.sourceCode .gi,
+.sourceCode .gu {
   font-weight: bold
 }
 
-.highlight .ge {
+.sourceCode .ge {
   text-decoration: underline
 }
 
-.highlight .bp {
+.sourceCode .bp {
   font-style: italic
 }
 
-.highlight .c,
-.highlight .ch,
-.highlight .cm,
-.highlight .cpf,
-.highlight .c1,
-.highlight .cs {
+.sourceCode .c,
+.sourceCode .ch,
+.sourceCode .cm,
+.sourceCode .cpf,
+.sourceCode .c1,
+.sourceCode .cs {
   color: #6272a4
 }
 
-.highlight .kd,
-.highlight .kt,
-.highlight .nb,
-.highlight .nl,
-.highlight .nv,
-.highlight .vc,
-.highlight .vg,
-.highlight .vi,
-.highlight .vm {
+.sourceCode .kd,
+.sourceCode .kt,
+.sourceCode .nb,
+.sourceCode .nl,
+.sourceCode .nv,
+.sourceCode .vc,
+.sourceCode .vg,
+.sourceCode .vi,
+.sourceCode .vm {
   color: #8be9fd
 }
 
-.highlight .kd,
-.highlight .nb,
-.highlight .nl,
-.highlight .nv,
-.highlight .vc,
-.highlight .vg,
-.highlight .vi,
-.highlight .vm {
+.sourceCode .kd,
+.sourceCode .nb,
+.sourceCode .nl,
+.sourceCode .nv,
+.sourceCode .vc,
+.sourceCode .vg,
+.sourceCode .vi,
+.sourceCode .vm {
   font-style: italic
 }
 
-.highlight .na,
-.highlight .nc,
-.highlight .nf,
-.highlight .fm {
+.sourceCode .na,
+.sourceCode .nc,
+.sourceCode .nf,
+.sourceCode .fm {
   color: #50fa7b
 }
 
-.highlight .k,
-.highlight .o,
-.highlight .cp,
-.highlight .kc,
-.highlight .kn,
-.highlight .kp,
-.highlight .kr,
-.highlight .nt,
-.highlight .ow {
+.sourceCode .k,
+.sourceCode .st,
+.sourceCode .o,
+.sourceCode .cp,
+.sourceCode .kc,
+.sourceCode .kn,
+.sourceCode .kp,
+.sourceCode .kr,
+.sourceCode .nt,
+.sourceCode .ow {
   color: #ff0
 }
 
-.highlight .m,
-.highlight .mb,
-.highlight .mf,
-.highlight .mh,
-.highlight .mi,
-.highlight .mo,
-.highlight .il {
+.sourceCode .m,
+.sourceCode .mb,
+.sourceCode .mf,
+.sourceCode .mh,
+.sourceCode .mi,
+.sourceCode .mo,
+.sourceCode .il {
   color: #bd93f9
 }
 
-.highlight .gd {
+.sourceCode .gd {
   color: #f55
 }
 
