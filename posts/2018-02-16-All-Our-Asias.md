@@ -1,6 +1,6 @@
 <meta name="description" content="Old interfaces as artificial mediators with ancestors." />
 <meta name="twitter:description" content="Old interfaces as artificial mediators with ancestors." />
-<h1 class="h1-title">All Our Asias explores memory, culture, and the limits of artifice</h1>
+<h1 class="h1-title">On All Our Asias</h1>
 <p class="post-date">
   <time datetime="2018-02-1621:36:00+00:00" itemprop="datePublished">February 16, 2018</time>
 </p>
