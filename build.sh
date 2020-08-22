@@ -1,5 +1,7 @@
 #!/bin/bash
 
+rm -rf site
+
 mkdir temp
 mkdir temp/about
 mkdir temp/cv
@@ -16,6 +18,7 @@ cd ../cv
 pandoc -f markdown -t html index.md -o ../temp/cv/index.html
 
 cd ..
+cp -R projects temp
 
 mkdir site
 
@@ -30,4 +33,4 @@ cp -R assets site
 cp -R img site
 cp index.html CNAME site
 
-rm -rf temp
+rm -rf temp main.dSYM
