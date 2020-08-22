@@ -41,7 +41,7 @@ void build_page(char *name) {
 
   char *filename = name;
   char filepath[STR_BUF_LEN];
-  snprintf(filepath, STR_BUF_LEN, "about/%s", filename);
+  snprintf(filepath, STR_BUF_LEN, "../site/%s", filename);
   FILE *f = fopen(filepath, "w");
 
   char incpath[STR_BUF_LEN];
@@ -88,7 +88,7 @@ void processdir(char *incdir) {
 }
 
 int main(void) {
-  chdir("./site");
+  chdir("./temp");
   processdir("./about");
   // processdir("./cv");
   // processdir("./posts");
