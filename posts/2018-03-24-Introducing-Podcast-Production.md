@@ -8,7 +8,7 @@
 During [Metagame's short-lived tenure](https://archive.org/details/MetagameEpisode3), I did the audio production for most of the episodes from the second one onward, with the exception of one episode (where I was recovering from surgery). I fell into a process, and it became something theraputic, and enjoyable, but it also took a lot of research to hone the process. So, for the benefit of any other budding podcasters who want to make a podcast sound good, I figured I'd outline my process from start to finish.
 
 
-# 0: Tools
+## 0: Tools
 
 I use Zencastr for most of my sessions with online participants. [Zencastr](https://zencastr.com/) is an incredible service that shaves off most of the logistical work: it records local audio on both sides of the conversation, and allows guests to just talk and not worry about the logistics of recording. It also is where you have your "virtual call" itself, so it's all in-browser for everyone. Once the podcast is done recording, a WAV is uploaded and you have lossless, synchronised audio for every participant.
 
@@ -16,7 +16,7 @@ My equipment is very spartan: a set of [Audio Technica ATR-2100 USB Microphones]
 
 My postprocessing DAW software of choice is Logic Pro X. It seems to be an uncommon choice, but it works really well for the job. [Audacity](https://www.audacityteam.org/) is also used at the very start and end of the process, as is the "secret sauce": [The Levelator](http://www.conversationsnetwork.org/levelator).
 
-# 1: Recording
+## 1: Recording
 
 There really isn't enough said about speaking on-air in a way that's really enjoyable to hear. I don't just mean being "on". I mean keeping a listener engaged, staying in touch with your participants, etc.
 
@@ -26,15 +26,15 @@ It's also very easy to use filler words to clarify that you're still thinking, l
 
 When I was producing Metagame, I also organised most of the shows -- I made a bullet-point list with questions or points that "needed" to be addressed, but I also let tangents happen if they happened. If the conversation ran away from a question, I eventually learned it didn't need to come up. A gentle structure is the best structure for a conversation. There's a reason the conversation is taking place, but let everyone explore a bit before edging them forward in the structure.
 
-# 2: Initially cleaning up the audio
+## 2: Initially cleaning up the audio
 
 Download the tracks from everyone. Open Audacity, open each track and perform [noise removal](https://manual.audacityteam.org/man/noise_reduction.html). Export the (now less noisy) WAV for each.
 
-# 3: Start the Logic project
+## 3: Start the Logic project
 
 Open Logic Pro X and create a multi-track template. Drag in the noiseless WAVs to independent tracks.
 
-# 4: Really clean up the audio
+## 4: Really clean up the audio
 
 Your three best friends are the compressor, the EQ, and the noise gate. I took a page from [this guide](https://sixcolors.com/post/2015/08/add-podcasting-plug-ins-in-garageband/), for GarageBand.
 
@@ -50,7 +50,7 @@ Apply selection-based processing to the track.
 - **Channel EQ**: In Logic, I usually used the "Improve Speaking Voice" preset.
 - **Noise Gate**: A lot of guides say to stick the noise gate to -35.0dB, but I found that this cut off quiet speakers. I had much better luck with -40.0dB or -45.0dB, which still eliminated their noise but allowed them to come through.
 
-# 5: Cut up the audio
+## 5: Cut up the audio
 
 Excellent! Now each track sounds good and you can strip the silence to see the conversation play out and really manipulate it.
 
@@ -65,7 +65,7 @@ Leave "search zero crossing" checked.
 
 Perform this to each independent track and you'll now see when everyone starts or stops talking (or when another noise is interrupting someone as they talk).
 
-# 6: Listen to the conversation
+## 6: Listen to the conversation
 
 This might be the most inefficient way I produce, but I listen to the episode at 1x speed and remove noises that aren't talking as they appear. I also remove "cross-talk" (people interrupting each other), sometimes moving the interruption later on to make the conversation less clumsy; I shorten the delay between online participants so that it sounds more like they're in the same room, reacting to each other quickly; and I often remove "yeah", "uh huh", etc. from the person listening, unless it's integral to the conversation.
 
@@ -75,15 +75,15 @@ I often ran into an issue where a participant would start a thought, take a few 
 
 If you hit a "weird" sound -- mouth clicking or someone tapping the table or whatever -- you can use the [scissor tool](https://support.apple.com/kb/PH13043?locale=en_US&viewlocale=en_US) in Logic, zoomed in enough (use Cmd+Right to zoom the track in a bit further) to remove the noise and connect the track back together with Shift+F.
 
-# 7: Bounce the rough mix and Levelate
+## 7: Bounce the rough mix and Levelate
 
 Hit Cmd+B to open Bounce and export a PCM, WAV mix of the episode. Now you're gonna stick it in the Levelator, which will normalise the channels and make it just sound generally better. I don't know what it does beyond normalisation, but episodes sound great after it processes them. So...yeah.
 
-# 8: Export the final
+## 8: Export the final
 
 Open the output from the Levelator in Audacity and chop off excess silence from the end, then export it. I usually export at 96kbps, mono audio, in MP3. This produces about ~26MB of audio per hour, which is fantastic.
 
-# 9: Upload it!
+## 9: Upload it!
 
 If you're doing your own podcast, I do highly recommend going to a hosting service like [Blubrry](https://www.blubrry.com/), since it's, in the long run, far less expensive than hosting it yourself. They also give you an embeddable HTML5 player for your site.
 

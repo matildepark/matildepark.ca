@@ -63,7 +63,7 @@ Yes, yes, this is very *Star Trek*, but the tool itself has a set of predictive 
 
 After all, those are *physical originators of formal elements*. GANs make associations between thoughts in rudimentary, but recognisable *patterns*.
 
-# The GAN "look"
+## The GAN "look"
 
 Jonathan Fly applied the StyleGAN model to Magic the Gathering cards, and, well, they're terrifying.
 
