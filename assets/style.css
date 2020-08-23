@@ -156,12 +156,12 @@ img {
 
 hr {
   border-top: 1px solid #000;
-  margin-bottom: 1rem;
+  margin-bottom: 1rem
 }
 
 .footnotes {
   font-size: .9rem;
-  padding-top: 1rem;
+  padding-top: 1rem
 }
 
 .table {
@@ -255,11 +255,6 @@ ul li a {
 
   nav a.site-title {
     font-size: 3rem
-  }
-
-  main a:not(.footnote, time, .post-date, div.post-blockh2, div.project-block):after {
-    content: " ["attr(href) "]";
-    font-size: .6rem
   }
 }
 
@@ -402,7 +397,7 @@ a {
   letter-spacing: -.03rem;
   font-size: 3.5rem;
   font-weight: 500;
-  text-align: center;
+  text-align: center
 }
 
 .homepage-container h3 {
@@ -422,41 +417,6 @@ a {
   text-align: right
 }
 
-.homepage-container div.home-blurb-container {
-  grid-area: auto/4/auto/10;
-  margin-top: 5rem;
-  display: grid;
-  justify-content: space-evenly
-}
-
-.homepage-container div.home-blurb-container p {
-  letter-spacing: -.011px;
-  text-align: justify
-}
-
-.homepage-container div.home-blurb-container div.home-left {
-  background-color: transparent;
-  color: inherit;
-  grid-area: auto/1/auto/7;
-  margin-right: 8px
-}
-
-.homepage-container div.home-blurb-container div.home-right {
-  background-color: transparent;
-  color: inherit;
-  grid-area: auto/8/auto/13;
-  margin-left: 8px
-}
-
-.homepage-container div.home-blurb-container a {
-  background-color: rgba(255, 255, 0, .5);
-  padding: 3px
-}
-
-.homepage-container div.home-blurb-container a:hover {
-  text-decoration: underline
-}
-
 header.home-header {
   grid-area: auto/4/auto/10;
   color: #181818;
@@ -467,7 +427,7 @@ header.home-header div.header-left,
 header.home-header div.header-right {
   margin: 3rem auto;
   width: 50%;
-  display: inline-block;
+  display: inline-block
 }
 
 header.home-header div.header-left li,
@@ -482,29 +442,6 @@ header.home-header div.header-right li {
 header.home-header div.header-left li a:hover,
 header.home-header div.header-right li a:hover {
   text-decoration: underline
-}
-
-div.bottom-container {
-  grid-area: auto/4/auto/10;
-  margin-top: 3rem;
-  clear: both;
-  justify-content: space-evenly;
-  margin-bottom: 3rem
-}
-
-div.bottom-container a {
-  background-color: rgba(255, 255, 0, .5);
-  padding: 3px
-}
-
-div.bottom-container a:hover {
-  text-decoration: underline
-}
-
-div.home-bottom {
-  background-color: transparent;
-  color: inherit;
-  flex-grow: 1
 }
 
 main {
@@ -676,9 +613,7 @@ body {
     font-size: 2rem
   }
 
-  .homepage-container,
-  .homepage-container div.bottom-container,
-  .homepage-container div.home-blurb-container {
+  .homepage-container {
     grid-area: auto/1/auto/13;
     padding: 0 2rem
   }
@@ -687,7 +622,7 @@ body {
     grid-area: auto/1/auto/13;
     margin: 0 0 3vh 0;
     padding: 2rem;
-    text-align: center;
+    text-align: center
   }
 
   nav li a {
@@ -714,12 +649,6 @@ body {
   .homepage-container header.home-header {
     grid-area: auto/1/auto/13;
     padding: 2rem 1rem
-  }
-
-  .homepage-container div.bottom-container,
-  .homepage-container div.home-blurb-container {
-    grid-area: auto/1/auto/13;
-    padding: 0 1rem 0 1rem
   }
 
   a.site-title {
@@ -750,12 +679,6 @@ body {
     margin: 0 0 3vh 0;
     grid-area: auto/1/auto/13;
     padding: 0 1rem
-  }
-
-  div.bottom-container,
-  div.home-blurb-container {
-    grid-area: auto/1/auto/13 !important;
-    padding: 0 .5rem 0 .5rem
   }
 
   nav {
