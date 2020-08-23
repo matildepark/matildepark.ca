@@ -367,7 +367,7 @@ nav li {
   padding-bottom: 5px
 }
 
-nav li:nth-child(2) {
+nav li:nth-child(2):not(main nav li) {
   border-top: 1px solid #000;
   padding-top: .2rem
 }
@@ -382,6 +382,10 @@ nav li a {
 
 nav li a:hover {
   text-decoration: underline
+}
+
+main nav {
+  margin: 4rem auto 0 auto;
 }
 
 a {
@@ -451,7 +455,7 @@ header.home-header div.header-right li a:hover {
 }
 
 main {
-  min-height: 68vh;
+  min-height: calc(100vh - 8.5rem);
   clear: both;
   margin-top: 2rem;
   margin-bottom: 4rem;
@@ -463,7 +467,7 @@ main p {
   text-align: justify
 }
 
-main a {
+main a:not(main nav a) {
   background: rgba(255, 255, 0, .5);
   color: #111;
   padding: 2px;
