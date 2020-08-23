@@ -81,7 +81,7 @@ code {
   overflow-x: scroll
 }
 
-code>span:last-of-type::after {
+code>a:last-of-type::after, code>span:last-of-type::after {
   content: "_";
   animation: blinker 1.1s cubic-bezier(1, 0, 0, 1) infinite
 }
