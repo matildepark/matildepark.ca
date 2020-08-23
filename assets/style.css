@@ -369,7 +369,7 @@ nav li {
   padding-bottom: 5px
 }
 
-nav li:nth-child(2):not(mainnavli) {
+nav li:nth-child(2):not(main nav li) {
   border-top: 1px solid #000;
   padding-top: .2rem
 }
@@ -409,7 +409,7 @@ main p {
   text-align: justify
 }
 
-main a:not(mainnava) {
+main a:not(main nav a) {
   background: rgba(255, 255, 0, .5);
   color: #111;
   padding: 2px;
