@@ -326,7 +326,7 @@ sub {
 }
 
 .sourceCode a {
-  display: none;
+  background-color: transparent;
 }
 
 .sourceCode .hll,
