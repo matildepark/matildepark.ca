@@ -81,7 +81,8 @@ code {
   overflow-x: scroll
 }
 
-code>a:last-of-type::after, code>span:last-of-type::after {
+code>a:last-of-type::after,
+code>span:last-of-type::after {
   content: "_";
   animation: blinker 1.1s cubic-bezier(1, 0, 0, 1) infinite
 }
@@ -295,9 +296,10 @@ sup {
   background-color: transparent
 }
 
-a.sourceLine, a.sourceLine:hover {
+a.sourceLine,
+a.sourceLine:hover {
   color: #f8f8f2;
-  text-decoration: none;
+  text-decoration: none
 }
 
 .sourceCode .s,
@@ -367,7 +369,7 @@ nav li {
   padding-bottom: 5px
 }
 
-nav li:nth-child(2):not(main nav li) {
+nav li:nth-child(2):not(mainnavli) {
   border-top: 1px solid #000;
   padding-top: .2rem
 }
@@ -385,73 +387,13 @@ nav li a:hover {
 }
 
 main nav {
-  margin: 4rem auto 0 auto;
+  margin: 4rem auto 0 auto
 }
 
 a {
   color: inherit;
   text-decoration: none;
   cursor: pointer
-}
-
-.homepage-container {
-  min-height: 95vh;
-  grid-area: auto/3/auto/11;
-  margin: 0 auto;
-  text-align: right;
-  display: grid
-}
-
-.homepage-container h1 {
-  font-family: -apple-system, "Helvetica Neue", sans-serif;
-  letter-spacing: -.03rem;
-  font-size: 3.5rem;
-  font-weight: 500;
-  text-align: center
-}
-
-.homepage-container h3 {
-  font-family: -apple-system, "Helvetica Neue", sans-serif;
-  letter-spacing: -.03rem;
-  font-size: 1.5rem;
-  font-weight: 600;
-  text-align: right;
-  white-space: nowrap
-}
-
-.homepage-container h4 {
-  font-family: -apple-system, "Helvetica Neue", sans-serif;
-  font-weight: 400;
-  font-size: 1rem;
-  letter-spacing: -.017px;
-  text-align: right
-}
-
-header.home-header {
-  grid-area: auto/4/auto/10;
-  color: #181818;
-  padding: 2rem 0
-}
-
-header.home-header div.header-left,
-header.home-header div.header-right {
-  margin: 3rem auto;
-  width: 50%;
-  display: inline-block
-}
-
-header.home-header div.header-left li,
-header.home-header div.header-right li {
-  width: 100%;
-  border-bottom: 1px solid #000;
-  list-style-type: none;
-  margin: 1rem 0 1rem 0;
-  text-align: right
-}
-
-header.home-header div.header-left li a:hover,
-header.home-header div.header-right li a:hover {
-  text-decoration: underline
 }
 
 main {
@@ -467,7 +409,7 @@ main p {
   text-align: justify
 }
 
-main a:not(main nav a) {
+main a:not(mainnava) {
   background: rgba(255, 255, 0, .5);
   color: #111;
   padding: 2px;
@@ -486,8 +428,8 @@ footer {
   max-height: 100px;
   grid-area: auto/1/auto/13;
   display: flex;
-  background: black;
-  color: white;
+  background: #000;
+  color: #fff
 }
 
 footer>p:not(.mono) {
@@ -511,7 +453,7 @@ footer>p>a>img {
   height: 1.5rem;
   display: inline-block;
   vertical-align: top;
-  filter: invert(1);
+  filter: invert(1)
 }
 
 .post-block {
@@ -585,7 +527,6 @@ a.project-link:hover {
   text-decoration: none
 }
 
-.homepage-container,
 body {
   display: grid;
   grid-template-columns: repeat(12, [col-start] 1fr);
@@ -594,16 +535,12 @@ body {
 }
 
 @media screen and (min-width:34.375rem) {
-
-  .homepage-container,
   body {
     column-gap: 32px
   }
 }
 
 @media screen and (min-width:60rem) {
-
-  .homepage-container,
   body {
     column-gap: 64px
   }
@@ -623,22 +560,6 @@ body {
     font-size: 14px
   }
 
-  .homepage-container h1 {
-    font-size: 2rem
-  }
-
-  .homepage-container {
-    grid-area: auto/1/auto/13;
-    padding: 0 2rem
-  }
-
-  header.home-header {
-    grid-area: auto/1/auto/13;
-    margin: 0 0 3vh 0;
-    padding: 2rem;
-    text-align: center
-  }
-
   nav li a {
     font-size: 14px
   }
@@ -656,15 +577,6 @@ body {
 }
 
 @media all and (min-width:1025px) and (max-width:1367px) {
-  .homepage-container h1 {
-    font-size: 3rem
-  }
-
-  .homepage-container header.home-header {
-    grid-area: auto/1/auto/13;
-    padding: 2rem 1rem
-  }
-
   a.site-title {
     font-size: 4rem
   }
@@ -679,20 +591,6 @@ body {
 
   body {
     font-size: 12px
-  }
-
-  .homepage-container {
-    grid-area: auto/1/auto/13
-  }
-
-  .homepage-container h1 {
-    font-size: 2rem
-  }
-
-  header.home-header {
-    margin: 0 0 3vh 0;
-    grid-area: auto/1/auto/13;
-    padding: 0 1rem
   }
 
   nav {
