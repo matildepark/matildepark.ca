@@ -80,6 +80,6 @@ rm ./main
 
 cp -R assets site
 cp -R img site
-cp index.html CNAME site
+cp index.html _redirects site
 
 rm -rf temp main.dSYM
