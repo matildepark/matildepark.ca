@@ -44,6 +44,8 @@ void build_page(char *name, char *dirname) {
   char filepath[STR_BUF_LEN];
   snprintf(filepath, STR_BUF_LEN, "./site/%s/%s", folder, filename);
   FILE *f = fopen(filepath, "w");
+  if(f == NULL){ return; }
+
 
   char incpath[STR_BUF_LEN];
   snprintf(incpath, STR_BUF_LEN, "temp/%s/%s", folder, filename);
