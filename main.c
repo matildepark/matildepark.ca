@@ -26,14 +26,17 @@ char *html_header =
   "<li><a href='/posts'>weblog</a></li></nav>\n\t";
 
 char *html_footer =
-  "</body>\n<footer class='border-top clearfix'>\n\t<p>\n\t\t"
-  "<a href='https://webring.xxiivv.com/#131' target='_blank' "
-  "rel='noopener noreferrer'>\n\t\t\t"
-  "<img src='https://webring.xxiivv.com/icon.black.svg' "
-  "style='height: 1.5rem;display: inline-block;vertical-align: top;'/>\n\t\t\t</a>\n\t\t "
-  "© 2020 matilde park · articles & written content available under "
-  "<a href='https://creativecommons.org/licenses/by/4.0/'>cc by 4.0</a>\n\t\t "
-  "</p>\n\t</footer>\n</html>";
+    "</body>\n<footer class='border-top clearfix'>\n\t<p>\n\t\t"
+    "© 2020 matilde park · site content available under "
+    "<a href='https://creativecommons.org/licenses/by/4.0/'>cc by 4.0</a>\n\t\t "
+    "<p class='mono'>[<a href='mailto:matilde.park@sunshinegardens.org'>smtp</a>]\n\t\t"
+    "[<a href='https://github.com/matildepark' rel='me'>git</a>]\n\t\t"
+    "[<a href='https://twitter.com/matildepark_'>twit</a>] "
+    "<a href='https://merveilles.town/@am' rel='me'><img src='/assets/merveilles.svg'/></a>\n\t\t"
+    "<a href='https://webring.xxiivv.com/#131' target='_blank' "
+    "rel='noopener noreferrer'>\n\t\t\t"
+    "<img src='https://webring.xxiivv.com/icon.black.svg'/>\n\t\t\t</a>\n\t\t "
+    "</p>\n\t</footer>\n</html>";
 
 void build_page(char *name, char *dirname) {
   if(strcmp(name,".") == 0){ return; }

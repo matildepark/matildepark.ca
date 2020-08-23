@@ -297,9 +297,7 @@ main h3 a {
   background: transparent;
 }
 
-main h1.h1-title:after,
-main h2:not(.highlighter):after,
-main h3:not(.highlighter):after {
+main h1.h1-title:after {
   content: "→";
   text-rendering: optimizeLegibility;
   font-family: "Monaco", monospace;
@@ -521,7 +519,7 @@ a {
 
 .homepage-container {
   min-height: 95vh;
-  grid-area: auto / 1 / auto / 13;
+  grid-area: auto / 3 / auto / 11;
   margin: 0 auto;
   text-align: right;
   display: grid
@@ -806,7 +804,7 @@ body,
     font-size: 2rem
   }
 
-  .homepage-container div.home-blurb-container,
+  .homepage-container, .homepage-container div.home-blurb-container,
   .homepage-container div.bottom-container {
     grid-area: auto / 1 / auto / 13;
     padding: 0 2rem
@@ -834,14 +832,14 @@ body,
   }
 }
 
-@media all and (min-width: 1025px) and (max-width: 1261px) {
+@media all and (min-width: 1025px) and (max-width: 1367px) {
   .homepage-container h1 {
     font-size: 3rem
   }
 
   .homepage-container header.home-header {
     grid-area: auto / 1 / auto / 13;
-    padding: 2rem
+    padding: 2rem 1rem;
   }
 
   .homepage-container div.home-blurb-container,
@@ -866,19 +864,23 @@ body,
     font-size: 12px
   }
 
+  .homepage-container {
+    grid-area: auto / 1 / auto / 13;
+  }
+
   .homepage-container h1 {
     font-size: 2rem
   }
 
   header.home-header {
-    padding: 0rem;
     margin: 0 0 3vh 0;
-    grid-area: auto / 2 / auto / 12
+    grid-area: auto / 1 / auto / 13;
+    padding: 0rem 1rem;
   }
 
   div.home-blurb-container,
   div.bottom-container {
-    grid-area: auto / 1 / auto / 13;
+    grid-area: auto / 1 / auto / 13 !important;
     padding: 0 0.5rem 0 0.5rem
   }
 
@@ -904,6 +906,13 @@ body,
 
   .project-block div.post-image {
     height: 150px
+  }
+  footer {
+    display: block;
+  }
+  footer > p.mono {
+    text-align: left;
+    margin-left: 8px;
   }
 }
 
