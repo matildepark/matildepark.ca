@@ -481,7 +481,9 @@ main a.footnote {
 footer {
   max-height: 100px;
   grid-area: auto/1/auto/13;
-  display: flex
+  display: flex;
+  background: black;
+  color: white;
 }
 
 footer>p:not(.mono) {
@@ -495,6 +497,7 @@ footer>p.mono {
   margin-top: 8px;
   margin-right: 8px;
   margin-bottom: 0;
+  padding-bottom: 8px;
   text-align: right;
   width: 100%;
   font-size: .9rem
@@ -503,7 +506,8 @@ footer>p.mono {
 footer>p>a>img {
   height: 1.5rem;
   display: inline-block;
-  vertical-align: top
+  vertical-align: top;
+  filter: invert(1);
 }
 
 .post-block {
