@@ -14,12 +14,12 @@ char *html_head =
   "<meta name='twitter:card' content='summary_large_image' />\n\t\t"
   "<meta name='twitter:site' content='@matildepark_' />\n\t\t"
   "<meta name='twitter:creator' content='@matildepark_' />\n\t\t"
-  "<meta name='twitter:title' content=\"%s / matilde park\" />\n\t\t"
-  "<title>%s / matilde park</title>\n\t\t"
+  "<meta name='twitter:title' content=\"%s / hello, i'm matilde park\" />\n\t\t"
+  "<title>%s / hello, i'm matilde park</title>\n\t\t"
   "<link rel='stylesheet' href='../assets/style.css'/>\n\t</head>\n<body>\n";
 
 char *html_header =
-  "<nav>\n\t<a class='site-title' href='/'>matilde park</a>\n\t"
+  "<nav>\n\t<a class='site-title' href='/'>hello, i'm matilde park</a>\n\t"
   "<li><a href='/about'>about</a></li>\n\t"
   "<li><a href='/cv'>curriculum vitae</a></li>\n\t"
   "<li><a href='/projects'>projects</a></li>\n\t"
