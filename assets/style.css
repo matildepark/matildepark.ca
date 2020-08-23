@@ -3,32 +3,26 @@
   margin: 0
 }
 
-input,
-select,
-textarea,
-button {
+input {
   font-family: inherit;
   font-size: inherit;
   line-height: inherit
 }
 
+blockquote,
 body,
+div.blockquote,
 h1,
 h2,
 h3,
 h4,
 h5,
 h6,
-p,
-blockquote,
-div.blockquote,
-pre,
 hr,
-dl,
-dd,
 ol,
-ul,
-figure {
+p,
+pre,
+ul {
   margin: 0;
   padding: 0
 }
@@ -36,7 +30,7 @@ figure {
 blockquote,
 div.blockquote {
   padding: 1.3rem;
-  background: transparent;
+  background: 0 0;
   color: #181818;
   font-size: 1.3rem;
   font-style: italic;
@@ -56,9 +50,9 @@ div.blockquote p {
 
 blockquote cite,
 div.blockquote cite {
-  font-family: "Inter", Helvetica, Arial, sans-serif;
+  font-family: Inter, Helvetica, Arial, sans-serif;
   display: block;
-  font-size: 0.8rem;
+  font-size: .8rem;
   margin-top: 10px;
   text-align: right;
   font-style: normal
@@ -77,7 +71,7 @@ div.blockquote a.footnote {
 }
 
 code {
-  font-family: "Monaco", monospace;
+  font-family: Monaco, monospace;
   letter-spacing: 0;
   display: block;
   padding: 1rem;
@@ -93,7 +87,7 @@ code>span:last-of-type::after {
 }
 
 .mono {
-  font-family: "Monaco", monospace !important;
+  font-family: Monaco, monospace !important;
   font-weight: 400 !important
 }
 
@@ -102,7 +96,7 @@ p {
 }
 
 main h1.h1-title {
-  letter-spacing: -0.03rem;
+  letter-spacing: -.03rem;
   font-weight: 600;
   border-top: 3px solid #000;
   font-family: -apple-system, "Helvetica Neue", sans-serif
@@ -115,7 +109,7 @@ main h4,
 main h5,
 main h6 {
   font-weight: 600;
-  letter-spacing: -0.03rem;
+  letter-spacing: -.03rem;
   border-top: 1px solid #000;
   font-family: -apple-system, "Helvetica Neue", sans-serif;
   margin-top: 4rem;
@@ -148,8 +142,8 @@ main ul {
 }
 
 main ul li {
-  margin-top: 0.2rem;
-  margin-bottom: 0.2rem
+  margin-top: .2rem;
+  margin-bottom: .2rem
 }
 
 h1 {
@@ -162,11 +156,12 @@ img {
 
 hr {
   border-top: 1px solid #000;
+  margin-bottom: 1rem;
 }
 
 .footnotes {
-  font-size: 0.9rem;
-  padding-top: 2rem;
+  font-size: .9rem;
+  padding-top: 1rem;
 }
 
 .table {
@@ -181,8 +176,8 @@ hr {
   float: right
 }
 
-.clearfix:before,
-.clearfix:after {
+.clearfix:after,
+.clearfix:before {
   content: " ";
   display: table
 }
@@ -205,43 +200,23 @@ hr {
   }
 }
 
-a.site-title,
-.highlighter {
-  background: linear-gradient(to left, transparent 50%, #FFFF7F 50%);
+.highlighter,
+a.site-title {
+  background: linear-gradient(to left, transparent 50%, #ffff7f 50%);
   background-size: 200% 100%;
   background-position: right bottom;
-  transition: all 0.5s ease-out
+  transition: all .5s ease-out
 }
 
-a.site-title:hover,
-.highlighter:hover {
+.highlighter:hover,
+a.site-title:hover {
   color: #181818;
   background-position: left bottom
 }
 
-figure {
-  display: inline;
-  margin-right: 1rem;
-  float: left
-}
-
-#bioPic {
-  box-shadow: 7px 7px 4px -5px rgba(0, 0, 0, 0.5);
-  filter: grayscale(0.1) contrast(0.9);
-  display: inline-block;
-  margin: 0 auto;
-  max-width: 250px
-}
-
-figcaption {
-  display: block;
-  margin-top: 0.3rem;
-  font-size: 0.6rem
-}
-
 div.blockquote {
   font-style: normal;
-  letter-spacing: -0.019px;
+  letter-spacing: -.019px;
   font-size: 1rem;
   display: block;
   margin-top: 5.1rem;
@@ -250,9 +225,9 @@ div.blockquote {
 }
 
 div.blockquote a {
-  background: transparent;
+  background: 0 0;
   color: #fff;
-  font-weight: normal;
+  font-weight: 400;
   text-decoration: underline
 }
 
@@ -262,7 +237,7 @@ ul {
 }
 
 ul li a {
-  background: transparent
+  background: 0 0
 }
 
 @media print {
@@ -275,195 +250,89 @@ ul li a {
   }
 
   nav {
-    margin-top: 0em !important
+    margin-top: 0 !important
   }
 
   nav a.site-title {
     font-size: 3rem
   }
 
-  main a:not(.footnote, time, .post-date, div.post-block h2, div.project-block):after {
+  main a:not(.footnote, time, .post-date, div.post-blockh2, div.project-block):after {
     content: " ["attr(href) "]";
-    font-size: 0.6rem
+    font-size: .6rem
   }
 }
 
 main h1,
 main h2,
 main h3 {
-  position: relative;
+  position: relative
 }
 
 main h1 a,
 main h2 a,
 main h3 a {
-  background: transparent;
+  background: 0 0
 }
 
 main h1.h1-title:after {
   content: "→";
   text-rendering: optimizeLegibility;
-  font-family: "Monaco", monospace;
+  font-family: Monaco, monospace;
   position: absolute;
   font-weight: 300;
   right: 0;
   transform: rotate(90deg)
 }
 
-sup,
-sub {
+sup {
   vertical-align: baseline;
   position: relative;
-  top: -0.4rem
-}
-
-sub {
-  top: 0.4rem
+  top: -.4rem
 }
 
 .sourceCode {
-  background: rgba(0, 0, 0, 0.89);
+  background: rgba(0, 0, 0, .89);
   color: #f8f8f2
 }
 
 .sourceCode a {
-  background-color: transparent;
+  background-color: transparent
 }
 
-.sourceCode .hll,
-.sourceCode .st,
 .sourceCode .s,
-.sourceCode .sa,
-.sourceCode .sb,
-.sourceCode .sc,
-.sourceCode .dl,
-.sourceCode .sd,
-.sourceCode .s2,
-.sourceCode .se,
-.sourceCode .sh,
-.sourceCode .si,
-.sourceCode .sx,
-.sourceCode .sr,
 .sourceCode .s1,
-.sourceCode .ss {
+.sourceCode .s2,
+.sourceCode .st {
   color: RGBA(113, 119, 238, 1)
 }
 
-.sourceCode .go {
-  color: #44475a
-}
-
-.sourceCode .err,
-.sourceCode .g,
 .sourceCode .l,
 .sourceCode .n,
-.sourceCode .x,
-.sourceCode .p,
-.sourceCode .ge,
-.sourceCode .gr,
-.sourceCode .gh,
-.sourceCode .gi,
-.sourceCode .gp,
-.sourceCode .gs,
-.sourceCode .gu,
-.sourceCode .gt,
-.sourceCode .ld,
 .sourceCode .no,
-.sourceCode .nd,
-.sourceCode .ni,
-.sourceCode .ne,
-.sourceCode .nn,
-.sourceCode .nx,
-.sourceCode .py,
-.sourceCode .w,
-.sourceCode .bp {
+.sourceCode .p,
+.sourceCode .x {
   color: #f8f8f2
 }
 
-.sourceCode .gh,
-.sourceCode .gi,
-.sourceCode .gu {
-  font-weight: bold
-}
-
-.sourceCode .ge {
-  text-decoration: underline
-}
-
-.sourceCode .bp {
-  font-style: italic
-}
-
 .sourceCode .c,
-.sourceCode .ch,
-.sourceCode .cm,
-.sourceCode .cpf,
-.sourceCode .c1,
-.sourceCode .cs {
+.sourceCode .c1 {
   color: #6272a4
 }
 
-.sourceCode .kd,
-.sourceCode .kt,
-.sourceCode .nb,
-.sourceCode .nl,
-.sourceCode .nv,
-.sourceCode .vc,
-.sourceCode .vg,
-.sourceCode .vi,
-.sourceCode .vm {
-  color: #8be9fd
-}
-
-.sourceCode .kd,
-.sourceCode .nb,
-.sourceCode .nl,
-.sourceCode .nv,
-.sourceCode .vc,
-.sourceCode .vg,
-.sourceCode .vi,
-.sourceCode .vm {
-  font-style: italic
-}
-
-.sourceCode .na,
-.sourceCode .nc,
-.sourceCode .nf,
-.sourceCode .fm {
-  color: #50fa7b
-}
-
-.sourceCode .k,
 .sourceCode .cf,
-.sourceCode .o,
-.sourceCode .cp,
-.sourceCode .kc,
-.sourceCode .kn,
-.sourceCode .kp,
-.sourceCode .kr,
-.sourceCode .nt,
-.sourceCode .ow {
+.sourceCode .k {
   color: #ff0
 }
 
-.sourceCode .m,
-.sourceCode .mb,
-.sourceCode .mf,
-.sourceCode .mh,
-.sourceCode .mi,
-.sourceCode .mo,
-.sourceCode .il {
+.sourceCode .m {
   color: #bd93f9
-}
-
-.sourceCode .gd {
-  color: #f55
 }
 
 body {
   display: grid;
   background-color: #fff;
-  font-family: "Inter", Helvetica, Arial, sans-serif;
+  font-family: Inter, Helvetica, Arial, sans-serif;
   line-height: 1.8;
   color: #181818;
   cursor: default;
@@ -475,16 +344,16 @@ a.site-title {
   font-family: -apple-system, "Helvetica Neue", sans-serif;
   color: #181818;
   font-weight: 500;
-  letter-spacing: -0.1rem;
+  letter-spacing: -.1rem;
   font-size: 4rem;
   text-decoration: none;
   line-height: 1
 }
 
 nav {
-  grid-area: auto / 1 / auto / 13;
+  grid-area: auto/1/auto/13;
   position: relative;
-  margin-top: 0rem;
+  margin-top: 0;
   margin-bottom: 1rem;
   text-align: right
 }
@@ -492,14 +361,14 @@ nav {
 nav li {
   margin-top: 5px;
   list-style-type: none;
-  border-bottom: 1px solid black;
+  border-bottom: 1px solid #000;
   width: 300px;
   padding-bottom: 5px
 }
 
 nav li:nth-child(2) {
-  border-top: 1px solid black;
-  padding-top: 0.2rem
+  border-top: 1px solid #000;
+  padding-top: .2rem
 }
 
 nav li a {
@@ -522,7 +391,7 @@ a {
 
 .homepage-container {
   min-height: 95vh;
-  grid-area: auto / 3 / auto / 11;
+  grid-area: auto/3/auto/11;
   margin: 0 auto;
   text-align: right;
   display: grid
@@ -530,7 +399,7 @@ a {
 
 .homepage-container h1 {
   font-family: -apple-system, "Helvetica Neue", sans-serif;
-  letter-spacing: -0.03rem;
+  letter-spacing: -.03rem;
   font-size: 3.5rem;
   font-weight: 500;
   text-align: right
@@ -538,7 +407,7 @@ a {
 
 .homepage-container h3 {
   font-family: -apple-system, "Helvetica Neue", sans-serif;
-  letter-spacing: -0.03rem;
+  letter-spacing: -.03rem;
   font-size: 1.5rem;
   font-weight: 600;
   text-align: right;
@@ -549,38 +418,38 @@ a {
   font-family: -apple-system, "Helvetica Neue", sans-serif;
   font-weight: 400;
   font-size: 1rem;
-  letter-spacing: -0.017px;
+  letter-spacing: -.017px;
   text-align: right
 }
 
 .homepage-container div.home-blurb-container {
-  grid-area: auto / 4 / auto / 10;
+  grid-area: auto/4/auto/10;
   margin-top: 5rem;
   display: grid;
   justify-content: space-evenly
 }
 
 .homepage-container div.home-blurb-container p {
-  letter-spacing: -0.011px;
+  letter-spacing: -.011px;
   text-align: justify
 }
 
 .homepage-container div.home-blurb-container div.home-left {
   background-color: transparent;
   color: inherit;
-  grid-area: auto / 1 / auto / 7;
+  grid-area: auto/1/auto/7;
   margin-right: 8px
 }
 
 .homepage-container div.home-blurb-container div.home-right {
   background-color: transparent;
   color: inherit;
-  grid-area: auto / 8 / auto / 13;
+  grid-area: auto/8/auto/13;
   margin-left: 8px
 }
 
 .homepage-container div.home-blurb-container a {
-  background-color: rgba(255, 255, 0, 0.5);
+  background-color: rgba(255, 255, 0, .5);
   padding: 3px
 }
 
@@ -589,7 +458,7 @@ a {
 }
 
 header.home-header {
-  grid-area: auto / 4 / auto / 10;
+  grid-area: auto/4/auto/10;
   color: #181818;
   padding: 2rem 0
 }
@@ -616,7 +485,7 @@ header.home-header div.header-right li a:hover {
 }
 
 div.bottom-container {
-  grid-area: auto / 4 / auto / 10;
+  grid-area: auto/4/auto/10;
   margin-top: 3rem;
   clear: both;
   justify-content: space-evenly;
@@ -624,7 +493,7 @@ div.bottom-container {
 }
 
 div.bottom-container a {
-  background-color: rgba(255, 255, 0, 0.5);
+  background-color: rgba(255, 255, 0, .5);
   padding: 3px
 }
 
@@ -643,7 +512,7 @@ main {
   clear: both;
   margin-top: 2rem;
   margin-bottom: 4rem;
-  grid-area: auto / 4 / auto / 10;
+  grid-area: auto/4/auto/10;
   font-size: 18px
 }
 
@@ -652,7 +521,7 @@ main p {
 }
 
 main a {
-  background: rgba(255, 255, 0, 0.5);
+  background: rgba(255, 255, 0, .5);
   color: #111;
   padding: 2px;
   padding-right: 2px
@@ -663,48 +532,48 @@ main a:hover {
 }
 
 main a.footnote {
-  background: transparent
+  background: 0 0
 }
 
 footer {
   max-height: 100px;
   grid-area: auto/1/auto/13;
-  display: flex;
+  display: flex
 }
 
-footer > p:not(.mono) {
+footer>p:not(.mono) {
   margin-top: 8px;
   margin-left: 8px;
-  flex-shrink: 0;
+  flex-shrink: 0
 }
 
-footer > p.mono {
+footer>p.mono {
   margin-top: 8px;
   margin-right: 8px;
   text-align: right;
   width: 100%;
-  font-size: 0.9rem;
+  font-size: .9rem
 }
 
-footer > p > a > img {
+footer>p>a>img {
   height: 1.5rem;
   display: inline-block;
-  vertical-align: top;
+  vertical-align: top
 }
 
 .post-block {
-  margin-top: 0.5rem;
+  margin-top: .5rem;
   margin-bottom: 2rem
 }
 
 .post-block a {
-  padding: 0px;
-  background: transparent
+  padding: 0;
+  background: 0 0
 }
 
 .post-block h2 {
   font-family: -apple-system, "Helvetica Neue", sans-serif;
-  border-top: 0px solid transparent;
+  border-top: 0 solid transparent;
   margin: -5px 0 0 -2px;
   width: 100%
 }
@@ -714,17 +583,18 @@ footer > p > a > img {
 }
 
 .post-block p {
-  font-size: 0.9rem
+  font-size: .9rem
 }
 
-time, .post-date {
-  font-size: 0.7rem;
+.post-date,
+time {
+  font-size: .7rem;
   font-weight: 400;
   color: #666
 }
 
 a.project-link {
-  background: transparent;
+  background: 0 0;
   cursor: default
 }
 
@@ -733,9 +603,9 @@ a.project-link:hover {
 }
 
 .project-block {
-  margin-top: 0.5rem;
+  margin-top: .5rem;
   margin-bottom: 2.5rem;
-  padding-bottom: 0.5rem;
+  padding-bottom: .5rem;
   line-height: 1.3333333
 }
 
@@ -754,7 +624,7 @@ a.project-link:hover {
 .project-block h2 {
   cursor: pointer;
   font-family: -apple-system, "Helvetica Neue", sans-serif;
-  border-top: 0px solid transparent;
+  border-top: 0 solid transparent;
   margin: 0
 }
 
@@ -762,34 +632,31 @@ a.project-link:hover {
   text-decoration: none
 }
 
-.grid12,
-body,
-.homepage-container {
+.homepage-container,
+body {
   display: grid;
   grid-template-columns: repeat(12, [col-start] 1fr);
   grid-auto-rows: auto;
   column-gap: 16px
 }
 
-@media screen and (min-width: 34.375rem) {
+@media screen and (min-width:34.375rem) {
 
-  .grid12,
-  body,
-  .homepage-container {
+  .homepage-container,
+  body {
     column-gap: 32px
   }
 }
 
-@media screen and (min-width: 60rem) {
+@media screen and (min-width:60rem) {
 
-  .grid12,
-  body,
-  .homepage-container {
+  .homepage-container,
+  body {
     column-gap: 64px
   }
 }
 
-@media all and (min-width: 481px) and (max-width: 1024px) {
+@media all and (min-width:481px) and (max-width:1024px) {
   .project-block div.post-image {
     height: 200px
   }
@@ -807,14 +674,15 @@ body,
     font-size: 2rem
   }
 
-  .homepage-container, .homepage-container div.home-blurb-container,
-  .homepage-container div.bottom-container {
-    grid-area: auto / 1 / auto / 13;
+  .homepage-container,
+  .homepage-container div.bottom-container,
+  .homepage-container div.home-blurb-container {
+    grid-area: auto/1/auto/13;
     padding: 0 2rem
   }
 
   header.home-header {
-    grid-area: auto / 1 / auto / 13;
+    grid-area: auto/1/auto/13;
     margin: 0 0 3vh 0;
     padding: 2rem
   }
@@ -829,25 +697,25 @@ body,
 
   main {
     font-size: 16px;
-    grid-area: auto / 1 / auto / 13;
+    grid-area: auto/1/auto/13;
     padding-left: 1rem;
     padding-right: 1rem
   }
 }
 
-@media all and (min-width: 1025px) and (max-width: 1367px) {
+@media all and (min-width:1025px) and (max-width:1367px) {
   .homepage-container h1 {
     font-size: 3rem
   }
 
   .homepage-container header.home-header {
-    grid-area: auto / 1 / auto / 13;
-    padding: 2rem 1rem;
+    grid-area: auto/1/auto/13;
+    padding: 2rem 1rem
   }
 
-  .homepage-container div.home-blurb-container,
-  .homepage-container div.bottom-container {
-    grid-area: auto / 1 / auto / 13;
+  .homepage-container div.bottom-container,
+  .homepage-container div.home-blurb-container {
+    grid-area: auto/1/auto/13;
     padding: 0 1rem 0 1rem
   }
 
@@ -856,7 +724,7 @@ body,
   }
 }
 
-@media all and (max-width: 480px) {
+@media all and (max-width:480px) {
 
   blockquote,
   div.blockquote {
@@ -868,7 +736,7 @@ body,
   }
 
   .homepage-container {
-    grid-area: auto / 1 / auto / 13;
+    grid-area: auto/1/auto/13
   }
 
   .homepage-container h1 {
@@ -877,14 +745,14 @@ body,
 
   header.home-header {
     margin: 0 0 3vh 0;
-    grid-area: auto / 1 / auto / 13;
-    padding: 0rem 1rem;
+    grid-area: auto/1/auto/13;
+    padding: 0 1rem
   }
 
-  div.home-blurb-container,
-  div.bottom-container {
-    grid-area: auto / 1 / auto / 13 !important;
-    padding: 0 0.5rem 0 0.5rem
+  div.bottom-container,
+  div.home-blurb-container {
+    grid-area: auto/1/auto/13 !important;
+    padding: 0 .5rem 0 .5rem
   }
 
   nav {
@@ -902,7 +770,7 @@ body,
 
   main {
     font-size: 12px;
-    grid-area: auto / 1 / auto / 13;
+    grid-area: auto/1/auto/13;
     padding-left: 1rem;
     padding-right: 1rem
   }
@@ -910,16 +778,18 @@ body,
   .project-block div.post-image {
     height: 150px
   }
+
   footer {
-    display: block;
+    display: block
   }
-  footer > p.mono {
+
+  footer>p.mono {
     text-align: left;
-    margin-left: 8px;
+    margin-left: 8px
   }
 }
 
-@media all and (min-width: 1025px) {
+@media all and (min-width:1025px) {
 
   main h1,
   main h1.h1-title {
