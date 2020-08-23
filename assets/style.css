@@ -391,7 +391,7 @@ a {
 }
 
 .homepage-container {
-  min-height: 94vh;
+  min-height: 95vh;
   grid-area: auto/3/auto/11;
   margin: 0 auto;
   text-align: right;
