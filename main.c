@@ -44,8 +44,14 @@ void build_page(char *name, char *dirname) {
   char filepath[STR_BUF_LEN];
   snprintf(filepath, STR_BUF_LEN, "site/%s/%s", folder, filename);
   FILE *f = fopen(filepath, "w");
-  if(f == NULL){ return; }
-
+  if (NULL == f) {
+    perror("fopen failure: ");
+    printf("filepath: %s\n", filepath);
+    char cwd[FILENAME_MAX] = {0};
+    getcwd(cwd, FILENAME_MAX);
+    printf("cwd: %s\n", cwd);
+    exit(1);
+  }
 
   char incpath[STR_BUF_LEN];
   snprintf(incpath, STR_BUF_LEN, "temp/%s/%s", folder, filename);
