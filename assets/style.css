@@ -390,7 +390,7 @@ a {
 }
 
 .homepage-container {
-  min-height: 95vh;
+  min-height: 94vh;
   grid-area: auto/3/auto/11;
   margin: 0 auto;
   text-align: right;
@@ -402,7 +402,7 @@ a {
   letter-spacing: -.03rem;
   font-size: 3.5rem;
   font-weight: 500;
-  text-align: right
+  text-align: center;
 }
 
 .homepage-container h3 {
@@ -465,9 +465,9 @@ header.home-header {
 
 header.home-header div.header-left,
 header.home-header div.header-right {
-  margin-top: 3rem;
+  margin: 3rem auto;
   width: 50%;
-  display: inline-block
+  display: inline-block;
 }
 
 header.home-header div.header-left li,
@@ -544,12 +544,14 @@ footer {
 footer>p:not(.mono) {
   margin-top: 8px;
   margin-left: 8px;
+  margin-bottom: 0;
   flex-shrink: 0
 }
 
 footer>p.mono {
   margin-top: 8px;
   margin-right: 8px;
+  margin-bottom: 0;
   text-align: right;
   width: 100%;
   font-size: .9rem
@@ -684,7 +686,8 @@ body {
   header.home-header {
     grid-area: auto/1/auto/13;
     margin: 0 0 3vh 0;
-    padding: 2rem
+    padding: 2rem;
+    text-align: center;
   }
 
   nav li a {
