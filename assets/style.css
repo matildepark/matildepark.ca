@@ -295,6 +295,11 @@ sup {
   background-color: transparent
 }
 
+a.sourceLine, a.sourceLine:hover {
+  color: #f8f8f2;
+  text-decoration: none;
+}
+
 .sourceCode .s,
 .sourceCode .s1,
 .sourceCode .s2,
@@ -305,6 +310,7 @@ sup {
 .sourceCode .l,
 .sourceCode .n,
 .sourceCode .no,
+.sourceCode .op,
 .sourceCode .p,
 .sourceCode .x {
   color: #f8f8f2
