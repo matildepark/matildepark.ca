@@ -52,8 +52,11 @@ void build_page(char *name, char *dirname) {
   if (headlen > 5) { headlen -= 5; }
   char myheader[STR_BUF_LEN] = {0};
   strncpy(myheader, filename, headlen);
-
-  fprintf(f, html_head, myheader, myheader);
+  if (strcmp(filename,"index.html") == 0) {
+    fprintf(f, html_head, dirname, dirname);
+  } else {
+    fprintf(f, html_head, myheader, myheader);
+  }
   fputs(html_header, f);
 
   fprintf(f, "<main>\n");
