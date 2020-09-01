@@ -520,7 +520,8 @@ a.project-link:hover {
   cursor: pointer;
   font-family: -apple-system, "Helvetica Neue", sans-serif;
   border-top: 0 solid transparent;
-  margin: 0
+  margin: 0;
+  width: 100%;
 }
 
 .project-block h2 a:hover {
