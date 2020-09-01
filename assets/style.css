@@ -397,7 +397,7 @@ a {
 }
 
 main {
-  min-height: calc(100vh - 8.5rem);
+  min-height: calc(100vh - 9rem);
   clear: both;
   margin-top: 2rem;
   margin-bottom: 4rem;
@@ -443,7 +443,7 @@ footer>p.mono {
   margin-top: 8px;
   margin-right: 8px;
   margin-bottom: 0;
-  padding-bottom: 8px;
+  padding-bottom: 14px;
   text-align: right;
   width: 100%;
   font-size: .9rem
