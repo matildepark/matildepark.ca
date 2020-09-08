@@ -6,7 +6,7 @@
   <time datetime="2019-04-2805:00:00+00:00" itemprop="datePublished">April 28, 2019</time>
 </p>
 
-<a data-flickr-embed="true"  href="https://www.flickr.com/photos/s-e/45538344881/in/datetaken/" title="Untitled"><img src="https://live.staticflickr.com/1963/45538344881_9743fc0a2a_k.jpg" width="2048" height="1427" alt="Untitled"></a><script async src="//embedr.flickr.com/assets/client-code.js" charset="utf-8"></script>
+<a data-flickr-embed="true"  href="https://www.flickr.com/photos/s-e/45538344881/in/datetaken/" title="Untitled"><img src="https://live.staticflickr.com/1963/45538344881_9743fc0a2a_k.jpg" alt="Untitled"></a><script async src="//embedr.flickr.com/assets/client-code.js" charset="utf-8"></script>
 
 > All sacred spaces, pagan or Christian, should be honored, not because there is or is not a God but because these are quiet points of contact between the individual and the macrocosm.
 > <cite>Camille Paglia, "The Joy of Presbyterian Sex"</cite>
