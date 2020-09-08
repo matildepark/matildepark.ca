@@ -1,9 +1,7 @@
 <meta name="description" content="Step by step, how I produce podcasts." />
 <meta name="twitter:description" content="Step by step, how I produce podcasts." />
 <h1 class="h1-title">Introduction to Podcast Production</h1>
-<p class="post-date">
-  <time datetime="2018-03-2412:00:00+00:00" itemprop="datePublished">March 24, 2018</time>
-</p>
+<time datetime="2018-03-2412:00:00+00:00" itemprop="datePublished">March 24, 2018</time>
 
 During [Metagame's short-lived tenure](https://archive.org/details/MetagameEpisode3), I did the audio production for most of the episodes from the second one onward, with the exception of one episode (where I was recovering from surgery). I fell into a process, and it became something theraputic, and enjoyable, but it also took a lot of research to hone the process. So, for the benefit of any other budding podcasters who want to make a podcast sound good, I figured I'd outline my process from start to finish.
 

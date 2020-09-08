@@ -1,9 +1,7 @@
 <meta name="description" content="A life update about a new company." />
 <meta name="twitter:description" content="A life update about a new company." />
 <h1 class="h1-title">Introducing Aether Interactive</h1>
-<p class="post-date">
-  <time datetime="2017-06-0218:00:00+00:00" itemprop="datePublished">June 2, 2017</time>
-</p>
+<time datetime="2017-06-0218:00:00+00:00" itemprop="datePublished">June 2, 2017</time>
 
 What is [Aether Interactive](http://www.aether.in.net)?
 

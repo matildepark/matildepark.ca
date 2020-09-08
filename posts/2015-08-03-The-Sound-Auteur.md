@@ -1,9 +1,7 @@
 <meta name="description" content="Imagine a world in which we grouped the films we watched by their sound designers." />
 <meta name="twitter:description" content="Imagine a world in which we grouped the films we watched by their sound designers." />
 <h1 class="h1-title">The Sound Auteur: Alan Splet and the Sound of a Signature</h1>
-<p class="post-date">
-  <time datetime="2015-08-0301:43:00+00:00" itemprop="datePublished">August 3, 2015</time>
-</p>
+<time datetime="2015-08-0301:43:00+00:00" itemprop="datePublished">August 3, 2015</time>
 <p>Imagine, for a moment, a world in which we grouped the films we watched by their sound designers. You want to see a science fiction movie, but more in the realm where the sound designer chooses to use the bass of a room to more closely engage you – especially using the sound space behind you to disorient and unsettle you. You know this sound designer’s prior work – her inspiration, as well as interviews she has given on the way she chooses the sounds she places within these worlds. She is, therefore, an <em>auteur</em>. Why does this sound so strikingly foreign?
 
 <p>In the world today, we already <em>have</em> sound design auteurs – their work celebrated only in the industry; selected by other professionals to perform their signature, to use their inner worlds to aid the creation of the filmic world. One such auteur is Alan Splet, whose work, in collaboration with directors like David Lynch and Peter Weir, is not only well known, but demonstrates a sound design beyond the signature of a directorial auteur alone.</p>

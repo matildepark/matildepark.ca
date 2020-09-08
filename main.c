@@ -19,14 +19,14 @@ char *html_head =
   "<link rel='stylesheet' href='../assets/style.css'/>\n\t</head>\n<body>\n";
 
 char *html_header =
-  "<nav>\n\t<a class='site-title' href='/'>matilde park</a>\n\t"
+  "<nav>\n\t<a class='site-title highlighter' href='/'>matilde park</a>\n\t"
   "<li><a href='/about'>about</a></li>\n\t"
   "<li><a href='/cv'>curriculum vitae</a></li>\n\t"
   "<li><a href='/projects'>projects</a></li>\n\t"
   "<li><a href='/posts'>weblog</a></li></nav>\n\t";
 
 char *html_footer =
-    "</body>\n<footer class='border-top clearfix'>\n\t<p>\n\t\t"
+    "</body>\n<footer>\n\t<p>\n\t\t"
     "© 2020 matilde park · site content available under "
     "<a href='https://creativecommons.org/licenses/by/4.0/'>cc by 4.0</a>\n\t\t "
     "<p class='mono'>[<a href='mailto:matilde.park@sunshinegardens.org'>smtp</a>]\n\t\t"

@@ -2,9 +2,7 @@
 <meta name="twitter:description" content="Every line of code becomes the instinct of a new breed." />
 <meta name="twitter:image" content="https://live.staticflickr.com/4060/4367159877_ba20c03287_o.jpg">
 <h1 class="h1-title">Cyberpoiesis</h1>
-<p class="post-date">
-  <time datetime="2019-07-1705:00:00+00:00" itemprop="datePublished">July 17, 2019</time>
-</p>
+<time datetime="2019-07-1705:00:00+00:00" itemprop="datePublished">July 17, 2019</time>
 
 <a data-flickr-embed="true"  href="https://www.flickr.com/photos/36349143@N06/4367159877/in/photolist-7DUQtX-3mqum-4aKgPX-Ygmru-5XEtR6-cLzRi-M4xWX-nVneLP-bCN9VG-57TrRR-bFT9L4-wE3cF-4zWyGY-bFT9ji-6ey71D-ovhRC-aJnb6a-595Aeg-aJnb9P-65KyEg-7fuhkc-7ZRT4i-7uctcz-5jSrmH-7fufTa-chZns-gHaExF-8i7BYU-6RhRS-nsxNmL-9kif11-ahVdjY-6H79S6-dCi7ih-6pHSCo-omVVrQ-CR5Zz-j36zD-doUkQr-aPMRrr-5c49D5-btU2qn-2dfpgKj-8F7xr7-2ddXeB9-8s6yvt-9icdzD-5HqQu8-hbRN9n-85WZAX" title="Pixels"><img src="https://live.staticflickr.com/4060/4367159877_ba20c03287_o.jpg" style="display: block; margin: 0 auto;" alt="Pixels"></a><script async src="//embedr.flickr.com/assets/client-code.js" charset="utf-8"></script>
 

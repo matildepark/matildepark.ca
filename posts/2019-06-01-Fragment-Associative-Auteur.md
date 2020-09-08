@@ -2,9 +2,7 @@
 <meta name="twitter:description" content="The GPT-2 is such a fascinating director." />
 <meta name="twitter:image" content="https://live.staticflickr.com/4220/34984628375_040ef6ee8e_b.jpg">
 <h1 class="h1-title">Fragment on the Associative Auteur</h1>
-<p class="post-date">
-  <time datetime="2019-06-0105:00:00+00:00" itemprop="datePublished">June 1, 2019</time>
-</p>
+<time datetime="2019-06-0105:00:00+00:00" itemprop="datePublished">June 1, 2019</time>
 
 <a data-flickr-embed="true"  href="https://www.flickr.com/photos/quasimondo/34984628375/in/photolist-VitnaR-W6525N-2dTfhBf-V4EM3S-U4Q6cX-RTetr7-2ejaD4E-vDmesm-efKUxd-V6K5Kx-RPSXUE-Y1rXtm-RNNYoP-2cFRKi4-2e3u1jJ-pLddCS-WE1C1J-RuPnf9-SmgjrN-RPSNpC-RpHv5P-Ruj5Ed-2euaN6s-WvXgvp-ULHWUZ-2b2pUBY-2bFUZM3-bGQQ34-QoZyRt-2cF9Tah-2dfaVhR-2fAcE3c-RE6g9W-2e89pAn-WE1CEj-btWfnG-5W8yAV-2cRSx1W-2cz3A3k-4zQCxD-UHcmFf-5JBYq1-2bcc85u-2cjVkFH-RSMY1d-8LyEF5-2bcdCW1-WvXkGa-QmNpnc-PYXDyn" title="Neural Decay"><img src="https://live.staticflickr.com/4220/34984628375_040ef6ee8e_b.jpg" style="display: block; margin: 0 auto;" alt="Neural Decay"></a><script async src="//embedr.flickr.com/assets/client-code.js" charset="utf-8"></script>
 <small style="display: block; text-align: center;">["Neural Decay"](https://www.flickr.com/photos/quasimondo/34984628375) by Mario Klingemann (and CycleGAN)</small>

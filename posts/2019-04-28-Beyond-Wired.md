@@ -2,9 +2,7 @@
 <meta name="twitter:description" content="Thoughts on the psychological and religious macrocosm of the Internet." />
 <meta name="twitter:image" content="https://live.staticflickr.com/1963/45538344881_9743fc0a2a_k.jpg">
 <h1 class="h1-title">Of Humans and Daemons: Channelling the Network</h1>
-<p class="post-date">
-  <time datetime="2019-04-2805:00:00+00:00" itemprop="datePublished">April 28, 2019</time>
-</p>
+<time datetime="2019-04-2805:00:00+00:00" itemprop="datePublished">April 28, 2019</time>
 
 <a data-flickr-embed="true"  href="https://www.flickr.com/photos/s-e/45538344881/in/datetaken/" title="Untitled"><img src="https://live.staticflickr.com/1963/45538344881_9743fc0a2a_k.jpg" alt="Untitled"></a><script async src="//embedr.flickr.com/assets/client-code.js" charset="utf-8"></script>
 

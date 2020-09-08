@@ -1,9 +1,7 @@
 <meta name="description" content="The prismic text of paranoia." />
 <meta name="twitter:description" content="The prismic text of paranoia." />
 <h1 class="h1-title">I'm not a pod: 1956's Invasion of the Body Snatchers</h1>
-<p class="post-date">
-  <time datetime="2016-03-2200:00:00+00:00" itemprop="datePublished">March 22, 2016</time>
-</p>
+<time datetime="2016-03-2200:00:00+00:00" itemprop="datePublished">March 22, 2016</time>
 
 Often remade, *Invasion of the Body Snatchers* is an easily retooled parable only due to its [original release](http://www.imdb.com/title/tt0049366/): it is so ambiguous that to date, different reviews insist upon its absolute meaning in various dimensions of conflict: from communism to McCarthyism to even the simple psychological conflict of the parable itself, the film resists to make its stand in any particular direction; but how did it become such a vague and contested text? How was *Invasion of the Body Snatchers* produced in such a way so as to become a contrastingly-read text? In this essay, it will be argued that ambiguity at all levels of the film’s production contributed to its dilution as social commentary.
 
