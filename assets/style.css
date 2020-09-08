@@ -9,26 +9,12 @@ input {
   line-height: inherit
 }
 
-blockquote,
-body,
-div.blockquote,
-h1,
-h2,
-h3,
-h4,
-h5,
-h6,
-hr,
-ol,
-p,
-pre,
-ul {
+blockquote, body, h1, h2, h3, hr, ol, p, pre, ul {
   margin: 0;
   padding: 0
 }
 
-blockquote,
-div.blockquote {
+blockquote {
   padding: 1.3rem;
   background: 0 0;
   color: #181818;
@@ -38,18 +24,15 @@ div.blockquote {
   font-family: -apple-system, "Helvetica Neue", sans-serif
 }
 
-blockquote strong,
-div.blockquote strong {
+blockquote strong {
   font-weight: 700
 }
 
-blockquote p,
-div.blockquote p {
+blockquote p {
   margin-bottom: 0
 }
 
-blockquote cite,
-div.blockquote cite {
+blockquote cite {
   font-family: Inter, Helvetica, Arial, sans-serif;
   display: block;
   font-size: .8rem;
@@ -58,15 +41,13 @@ div.blockquote cite {
   font-style: normal
 }
 
-blockquote cite a,
-div.blockquote cite a {
+blockquote cite a {
   background-color: transparent;
   color: #181818;
   text-decoration: underline
 }
 
-blockquote a.footnote,
-div.blockquote a.footnote {
+blockquote a.footnote {
   color: #181818
 }
 
@@ -103,12 +84,7 @@ main h1.h1-title {
   font-family: -apple-system, "Helvetica Neue", sans-serif
 }
 
-main h1:not(.h1-title),
-main h2,
-main h3,
-main h4,
-main h5,
-main h6 {
+main h1:not(.h1-title), main h2, main h3 {
   font-weight: 600;
   letter-spacing: -.03rem;
   border-top: 1px solid #000;
@@ -127,10 +103,6 @@ main h2 {
 
 main h3 {
   font-size: 1.8rem
-}
-
-main h4 {
-  font-size: 1.6rem
 }
 
 main ol {
@@ -199,23 +171,6 @@ hr {
 .highlighter:hover {
   color: #181818;
   background-position: left bottom
-}
-
-div.blockquote {
-  font-style: normal;
-  letter-spacing: -.019px;
-  font-size: 1rem;
-  display: block;
-  margin-top: 5.1rem;
-  clear: both;
-  text-align: center
-}
-
-div.blockquote a {
-  background: 0 0;
-  color: #fff;
-  font-weight: 400;
-  text-decoration: underline
 }
 
 ul {
@@ -531,8 +486,7 @@ a.project-link:hover {
     height: 200px
   }
 
-  blockquote,
-  div.blockquote {
+  blockquote {
     font-size: 1.2rem
   }
 
@@ -558,8 +512,7 @@ a.project-link:hover {
 
 @media all and (max-width:480px) {
 
-  blockquote,
-  div.blockquote {
+  blockquote{
     font-size: 1.2rem
   }
 
@@ -623,8 +576,7 @@ a.project-link:hover {
     margin-left: -4.5vw
   }
 
-  blockquote,
-  div.blockquote {
+  blockquote{
     width: calc(100% + 10vw);
     margin-left: -5vw
   }
