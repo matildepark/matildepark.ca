@@ -12,17 +12,11 @@ I have an academic background in film and media theory + history. I apply it wit
 
 ```javascript
 switch(format) {
-    case "fediverse":
-        return "am@merveilles.town"
     case "twitter":
         return "@matildepark_"
-    case "xmpp":
-        return "matilde.park@sunshinegardens.org"
     case "urbit":
         return "~haddef-sigwen"
-    case "scuttlebutt":
-        return "@3tW9U2Q4cRLR1QPOKVHBCtRF8kmeRONocyaLC7JKYik=.ed25519"
     case "email":
-        return ["matilde.park@sunshinegardens.org", "matilde.park@utoronto.ca"]
+        return "matilde.park@gmail.com"
 }
 ```
