@@ -36,8 +36,6 @@ _Development, production, narrative design._
 
 * [**Kotaku**: An Unsettling Game Where You Convince AI To Let You Erase Them](http://kotaku.com/an-unsettling-game-where-you-convince-ai-to-let-you-era-1798437040) (25 Aug 2017)
 * [**Polygon**: How do you convince an artificial intelligence it's OK to die?](https://www.polygon.com/2017/8/30/16225764/how-do-you-convince-an-artificial-intelligence-its-ok-to-die) (30 Aug 2017)
-* [**Rock Paper Shotgun**: Delete innocent AIs from hard drives in Localhost](https://www.rockpapershotgun.com/2017/09/04/delete-innocent-ais-from-hard-drives-in-localhost/) (4 Sep 2017)
-* [**Game Informer**: Five Reasons You Should Check Out Localhost](http://www.gameinformer.com/b/news/archive/2017/09/07/five-reasons-you-should-check-out-localhost.aspx?utm_content=buffer3ac90&utm_medium=social&utm_source=twitter.com&utm_campaign=buffer) (7 Sep 2017)
 * [**PC Gamer**: Localhost is a cyberpunk game about talking AIs into being deleted](http://www.pcgamer.com/localhost-is-a-cyberpunk-game-about-talking-ais-into-being-deleted/?utm_content=buffer24571&utm_medium=social&utm_source=twitter&utm_campaign=buffer-pcgamertw) (16 Sep 2017)
 
 **[Arc Symphony](https://aetherinteractive.itch.io/arc-symphony) — 15 May 2017**
@@ -48,7 +46,6 @@ _Development, production, narrative design._
 * [**Kotaku**: People Are Reminiscing About A PS1 JRPG That Didn't Exist](http://kotaku.com/people-are-reminiscing-about-a-ps1-jrpg-that-didnt-exis-1795227061) (15 May 2017)
 * [**Boing Boing**: Arc Symphony is a Playstation game that never existed. Or did it?](http://boingboing.net/2017/05/16/arc-symphony-is-a-playstation.html?utm_source=dlvr.it&utm_medium=twitter) (16 May 2017)
 * [**Nerdist**: The Non-Existent JRPG That Everyone is Nostalgic For](http://nerdist.com/the-non-existent-jrpg-that-everyone-is-nostalgic-for/) (17 May 2017)
-* [**Waypoint**: A Love Letter to Your Favorite Fake PS1 Game](https://waypoint.vice.com/en_us/article/a-love-letter-to-your-favorite-fake-ps1-game?utm_source=wptwitterus) (18 May 2017)
 * [**Wired**: The Story of Arc Symphony, a Game About a Game That Doesn’t Exist](https://www.wired.com/2017/05/arc-symphony-games-memory/) (24 May 2017)
 
 **[Forgotten](https://aetherinteractive.itch.io/forgotten) — 31 December 2016**

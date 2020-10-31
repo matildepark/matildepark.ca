@@ -179,7 +179,7 @@ ul {
 }
 
 ul li a {
-  background: 0 0
+  background: 0 0 !important;
 }
 
 main h1,
