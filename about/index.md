@@ -1,5 +1,7 @@
 <h1 class="h1-title">about</h1>
 
+<p style="margin-bottom: 0;"><img src="https://haddefsigwen1.s3.us-east-1.amazonaws.com/haddef-sigwen/2020.10.31..14.31.21-matilde_web.jpg" style="float:left; max-width: 250px; margin-right: 1rem;box-shadow: 1px 1px 5px 1px lightgray;"/></p>
+
 I'm a software and interactive media developer based in Toronto. I'm a strong generalist, the dreaded "creative technologist," with experience working in (and sometimes leading) various teams in self-owned, creative and professional environments across tech.
 
 I'm interested in the burgeoning decentralised web; "play" and user interfaces; enacting stories through interfaces; and rethinking the role and social integration of personal computers in our everyday lives. Currently I'm helping build [Urbit](https://urbit.org) with [Tlon](https://tlon.io).
