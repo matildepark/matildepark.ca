@@ -6,9 +6,9 @@ I'm a software and interactive media developer. My professional work outside vid
 
 - **[Tlon Corporation](https://tlon.io)**, June 2019 - Present
 
-_Designing and executing userspace software for Urbit, an operating system and peer-to-peer network built from scratch, using React and [Hoon](https://urbit.org/docs/glossary/hoon/)._
+From June 2019 to March 2020 I was a software developer on the Landscape team. Since April 2020, I lead the Landscape team, organising and executing our product cycles; managing a team of four; and serving as a developer.
 
-_From June 2019 to March 2020 I was a software developer on the Landscape team. Since April 2020, I lead the Landscape team, organising and executing our product cycles; managing a team of four; and serving as a developer._
+_Designing and executing userspace software for Urbit, an operating system and peer-to-peer network built from scratch, using React and [Hoon](https://urbit.org/docs/glossary/hoon/)._
 
 _I've also also [written](https://urbit.org/blog/tools-of-our-own/) on the project; given talks regarding our interface and our design principles; lead and participate in communications and product sprints internally several times per year; and represent the project at conferences._
 
