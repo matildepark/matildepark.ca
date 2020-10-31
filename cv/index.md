@@ -1,14 +1,16 @@
 <h1 class="h1-title">curriculum vitae</h1>
 
-I'm a software and interactive media developer. My professional work has so far been focused on executing front-end and creating self-contained developer onboarding products. My narrative work emphasises an interest in formal experimentation across computer interfaces and recontextualising experience into components of the posthuman.
+I'm a software and interactive media developer. My professional work outside video games has been focused on product work in experimental areas and creating developer onboarding tools. My narrative work emphasised formal experimentation with computer interfaces.
 
 ### freelance work
 
 - **[Tlon Corporation](https://tlon.io)**, June 2019 - Present
 
-_Designing and executing userspace software for Urbit, an operating system and peer-to-peer network built from scratch, using React and [Hoon](https://urbit.org/docs/glossary/hoon/). I also [write](https://urbit.org/blog/landscape-a-portrait/) and present talks when required regarding the operating system, user interface, and our design theory more generally; participate in communications and product sprints internally several times per year, and represent the project at conferences._
+_Designing and executing userspace software for Urbit, an operating system and peer-to-peer network built from scratch, using React and [Hoon](https://urbit.org/docs/glossary/hoon/)._
 
-_Recently I executed a redesign for all Urbit websites in late 2019. When needed, I serve as a general developer for projects in other departments._
+_From June 2019 to March 2020 I was a software developer on the Landscape team. Since April 2020, I lead the Landscape team, organising and executing our product cycles; managing a team of four; and serving as a developer._
+
+_I've also also [written](https://urbit.org/blog/tools-of-our-own/) on the project; given talks regarding our interface and our design principles; lead and participate in communications and product sprints internally several times per year; and represent the project at conferences._
 
 ### interactive projects and selected media coverage
 
