@@ -31,7 +31,6 @@ char *html_footer =
     "<a href='https://creativecommons.org/licenses/by/4.0/'>cc by 4.0</a>\n\t\t "
     "<p class='mono'>[<a href='mailto:matilde.park@gmail.com'>smtp</a>]\n\t\t"
     "[<a href='https://github.com/matildepark' rel='me'>git</a>]\n\t\t"
-    "[<a href='https://twitter.com/matildepark_'>twit</a>] "
     "<a href='https://webring.xxiivv.com/#131' target='_blank' "
     "rel='noopener noreferrer'>\n\t\t\t"
     "<img src='https://webring.xxiivv.com/icon.black.svg'/>\n\t\t\t</a>\n\t\t "

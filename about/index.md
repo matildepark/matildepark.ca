@@ -15,10 +15,12 @@ I have an academic background in film and media theory + history. I apply it wit
 ```javascript
 switch(format) {
     case "twitter":
-        return "@matildepark_"
+      return "@matildepark_"
+    case "fediverse":
+      return "am@decept.org"
     case "urbit":
-        return "~haddef-sigwen"
+      return "~haddef-sigwen"
     case "email":
-        return "matilde.park@gmail.com"
+      return "matilde.park@gmail.com"
 }
 ```
