@@ -1,6 +1,6 @@
 <h1 class="h1-title">about</h1>
 
-<p style="margin-bottom: 0;"><img src="https://haddefsigwen1.s3.us-east-1.amazonaws.com/haddef-sigwen/2020.10.31..14.31.21-matilde_web.jpg" style="float:left; max-width: 250px; margin-right: 1rem;box-shadow: 1px 1px 5px 1px lightgray;"/></p>
+<p style="margin-bottom: 0;"><img src="https://haddefsigwen1.s3.us-east-1.amazonaws.com/haddef-sigwen/2021.1.17..17.40.42-7FA81BC4-C295-465E-A5DC-851900185D40_1_105_c.jpeg" style="float:left; max-width: 250px; margin-right: 1rem;box-shadow: 1px 1px 5px 1px lightgray;"/></p>
 
 I'm a software and interactive media developer based in Toronto. I'm a strong generalist, the dreaded "creative technologist," with experience working in (and sometimes leading) various teams in self-owned, creative and professional environments across tech.
 
