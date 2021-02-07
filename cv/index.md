@@ -6,59 +6,46 @@ I'm a software and interactive media developer. My professional work outside vid
 
 - **[Tlon Corporation](https://tlon.io)**, June 2019 - Present
 
-From June 2019 to March 2020 I was a software developer on the Landscape team. Since April 2020, I lead the Landscape team, organising and executing our product cycles; managing a team of four; and serving as a developer.
+From June 2019 to March 2020 I was a front-end developer on the Landscape team. Since April 2020, I lead the Landscape team, organising and executing our product cycles; managing a team scaling between four and six as needed; and serving as a front-end developer.
 
 _Designing and executing userspace software for Urbit, an operating system and peer-to-peer network built from scratch, using React and [Hoon](https://urbit.org/docs/glossary/hoon/)._
 
 _I've also also [written](https://urbit.org/blog/tools-of-our-own/) on the project; given talks regarding our interface and our design principles; lead and participate in communications and product sprints internally several times per year; and represent the project at conferences._
 
-### interactive projects and selected media coverage
+### interactive projects
 
 **[Sol Hemochroma](http://aetherinteractive.itch.io/sol-hemochroma) — 4 September 2018**
 
 _Producer, narrative design, additional programming._
 
-* [**Rock Paper Shotgun**: Uncover a conspiracy of blood in Sol Hemochroma](https://www.rockpapershotgun.com/2018/09/09/uncover-a-conspiracy-of-blood-in-sol-hemochroma/) (9 Sep 2018)
-
 **[Subserial Network](http://aether.in.net/subserial/) — 1 June 2018**
 
 _Project direction, lead writer, additional programming and art assets. First published as part of the [Humble Monthly](http://www.humble.com/monthly)._
-
-* [**PC Gamer**: Sexuality and gender in science fiction games](https://www.pcgamer.com/sexuality-and-gender-in-science-fiction-games/) (Interview, 4 Aug 2018)
-* [**Rock Paper Shotgun**: Investigate a post-human revolution in Subserial Network](https://www.rockpapershotgun.com/2018/09/19/investigate-a-post-human-revolution-in-subserial-network/) (19 Sep 2018)
-* [**Kotaku**: A Cyberpunk Detective Game About Finding Rogue Androids](https://kotaku.com/a-cyberpunk-detective-game-about-finding-rogue-androids-1829171126) (19 Sep 2018)
-* [**PC Gamer**: Subserial Network is a 1990s internet simulator with android-hunting](https://www.pcgamer.com/subserial-network-its-a-1990s-internet-simulator-with-android-hunting/) (24 Sep 2018)
-* [**Eurogamer**: Saving punk from cyberpunk](https://www.eurogamer.net/articles/2018-09-25-saving-punk-from-cyberpunk) (Interview, 26 Sep 2018)
 
 **[LOCALHOST](http://aetherinteractive.itch.io/localhost) — 25 August 2017**
 
 _Development, production, narrative design._
 
-* [**Kotaku**: An Unsettling Game Where You Convince AI To Let You Erase Them](http://kotaku.com/an-unsettling-game-where-you-convince-ai-to-let-you-era-1798437040) (25 Aug 2017)
-* [**Polygon**: How do you convince an artificial intelligence it's OK to die?](https://www.polygon.com/2017/8/30/16225764/how-do-you-convince-an-artificial-intelligence-its-ok-to-die) (30 Aug 2017)
-* [**PC Gamer**: Localhost is a cyberpunk game about talking AIs into being deleted](http://www.pcgamer.com/localhost-is-a-cyberpunk-game-about-talking-ais-into-being-deleted/?utm_content=buffer24571&utm_medium=social&utm_source=twitter&utm_campaign=buffer-pcgamertw) (16 Sep 2017)
-
 **[Arc Symphony](https://aetherinteractive.itch.io/arc-symphony) — 15 May 2017**
 
 _Development, production, narrative design._
-
-* [**Polygon**: Arc Symphony is the classic JRPG everyone loves — that never existed](https://www.polygon.com/2017/5/15/15640938/what-is-arc-symphony-ps1-jrpg) (15 May 2017)
-* [**Kotaku**: People Are Reminiscing About A PS1 JRPG That Didn't Exist](http://kotaku.com/people-are-reminiscing-about-a-ps1-jrpg-that-didnt-exis-1795227061) (15 May 2017)
-* [**Boing Boing**: Arc Symphony is a Playstation game that never existed. Or did it?](http://boingboing.net/2017/05/16/arc-symphony-is-a-playstation.html?utm_source=dlvr.it&utm_medium=twitter) (16 May 2017)
-* [**Nerdist**: The Non-Existent JRPG That Everyone is Nostalgic For](http://nerdist.com/the-non-existent-jrpg-that-everyone-is-nostalgic-for/) (17 May 2017)
-* [**Wired**: The Story of Arc Symphony, a Game About a Game That Doesn’t Exist](https://www.wired.com/2017/05/arc-symphony-games-memory/) (24 May 2017)
 
 **[Forgotten](https://aetherinteractive.itch.io/forgotten) — 31 December 2016**
 
 _All development, production, and narrative design._
 
-* [**Kotaku**: Horror Game Explores A Corrupted, Glitchy Video Game](http://kotaku.com/horror-game-explores-a-corrupted-glitchy-video-game-1790769659) (4 January 2017)
-* [**Wired**: The First Must-Play Game of the Year is Short, Odd, and Amazing](https://www.wired.com/2017/01/play-this-free-text-game-right-now/) (5 January 2017)
-
 **[Sonic OC 7](https://aetherinteractive.itch.io/sonic-oc-7) - 31 December 2015**
 
 _All development, production and narrative design._
+### music
 
+**[Charity](https://lapsedcatholics.bandcamp.com/album/charity) — 19 April 2019**
+
+_EP with Lapsed Catholics. Co-songwriting and composition, performance (guitar, keyboards, some bass guitar, and vocals), production and mastering._
+
+**[Hetaera](https://lapsedcatholics.bandcamp.com/album/hetaera) — 14 December 2018**
+
+_Album with Lapsed Catholics. Co-songwriting and composition, performance (some guitar, vocals), co-production._
 ### talks
 
 **[Critical Decentralisation Cluster](https://youtu.be/t5qZbiplp_E?t=9008), Chaos Communication Congress - 30 December 2019**
@@ -96,16 +83,6 @@ _Showed Forgotten and previewed Arc Symphony as part of the Comics X Games Arcad
 **[Toronto Long Winter](http://www.torontolongwinter.com/past-shows/) - 24 March 2017**
 
 _Showed Forgotten as part of the [Hand Eye Society](http://handeyesociety.com/) Arcade._
-
-### other creative projects
-
-**[Charity](https://lapsedcatholics.bandcamp.com/album/charity) — 19 April 2019**
-
-_EP with Lapsed Catholics. Co-songwriting and composition, performance (guitar, keyboards, some bass guitar, and vocals), production and mastering._
-
-**[Hetaera](https://lapsedcatholics.bandcamp.com/album/hetaera) — 14 December 2018**
-
-_Album with Lapsed Catholics. Co-songwriting and composition, performance (some guitar, vocals), co-production._
 
 ### education
 
