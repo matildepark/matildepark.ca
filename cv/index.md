@@ -46,6 +46,7 @@ _EP with Lapsed Catholics. Co-songwriting and composition, performance (guitar, 
 **[Hetaera](https://lapsedcatholics.bandcamp.com/album/hetaera) — 14 December 2018**
 
 _Album with Lapsed Catholics. Co-songwriting and composition, performance (some guitar, vocals), co-production._
+
 ### talks
 
 **[Critical Decentralisation Cluster](https://youtu.be/t5qZbiplp_E?t=9008), Chaos Communication Congress - 30 December 2019**
