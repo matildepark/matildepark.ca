@@ -27,7 +27,7 @@ char *html_header =
 
 char *html_footer =
     "</body>\n<footer>\n\t<p>\n\t\t"
-    "© 2020 matilde park · site content available under "
+    "© 2021 matilde park · site content available under "
     "<a href='https://creativecommons.org/licenses/by/4.0/'>cc by 4.0</a>\n\t\t "
     "<p class='mono'>[<a href='mailto:matilde.park@gmail.com'>smtp</a>]\n\t\t"
     "[<a href='https://github.com/matildepark' rel='me'>git</a>]\n\t\t"
