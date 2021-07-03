@@ -10,6 +10,41 @@ Previously, I've written and directed video games with [Aether Interactive](http
 
 I have an academic background in film and media theory + history. I apply it with interests in cybernetics, science fiction, and more on this [blog](https://matildepark.ca/posts).
 
+### history
+
+<div id="history">
+
+- **July 2021**: Implementing the 2021 redesign of urbit.org, migrating to a new build in next.js.
+- **May 2021**: Began [introducing continuous integration tests](https://github.com/urbit/urbit/pull/4853) for the Landscape codebase.
+- **March 2021**: Gave a talk, “[Pressure and Protolith](https://www.youtube.com/watch?v=XjIDZQUZZtE),” on the history of the Landscape product, its fundamental decisions and where it placed itself in the Urbit ecosystem, alongside a brief technical overview of the userspace codebase.
+- **February 2021**: Introduced a [direct messages](https://github.com/urbit/urbit/pull/4363) view in Landscape.
+- **January 2021**: Shepherded a continuously deployed, [bleeding-edge update stream](https://urbit.org/blog/metaphase/) for Landscape developers.
+- **November 2020**: Created [decept.org](https://decept.org), a Pleroma instance for fediverse access. Forked the front-end codebase to implement its theme.
+- **August 2020**: Wrote [Leap](https://github.com/urbit/urbit/pull/3231), an omnibox launcher for Landscape.
+- **June 2020**: Rearchitected the entire Landscape suite of four applications into [a single-page application](https://github.com/urbit/urbit/pull/3025), moving from Gulp to Webpack in the process.
+- **May 2020**: Wrote "[Tools of Our Own](https://urbit.org/blog/tools-of-our-own/)," a blog post for the Urbit project as a meditation on product-oriented consequences from the stack upward.
+- **April 2020**: Devised and [initiated a six-week product lifecycle](https://github.com/orgs/urbit/projects/1) for Landscape, Tlon’s flagship product, built on Urbit.
+- **April 2020**: Appeared in the [Urbit OS1 Launch](https://www.youtube.com/watch?v=71ViyftPkGk) video on a developer panel, after a three-month push to launch.
+- **January 2020**: Added [dark mode to Chat](https://github.com/urbit/urbit/pull/2144) in Landscape. Maintained from then onward.
+- **December 2019**: Gave a talk, “[Designing a communal computing interface](https://www.youtube.com/watch?v=Pe30AmDuayU),” at the Chaos Communication Congress in Leipzig, Germany.
+- **December 2019**: [Added the Hoon standard library](https://github.com/urbit/urbit.org/pull/324) to the urbit.org site-wide search, in addition to adding runes earlier.
+- **November 2019**: Implemented [a full redesign of Chat](https://github.com/urbit/urbit/pull/1976) in Landscape. Introduced responsive designs, which I maintained from then onward.
+- **November 2019**: Ported an earlier React [implementation of the Dojo](https://github.com/urbit/urbit/pull/1952) (Hoon REPL) to the new codebase alongside a back-end relay to open new sessions.
+- **October 2019**: Main developer on [the 2019 redesign of urbit.org](https://github.com/urbit/urbit.org/pull/227).
+- **September 2019**: Wrote "[Landscape: a Portrait](https://urbit.org/blog/landscape-a-portrait/)," a blog post on where we intend to take the Landscape product after its initial “Modulo” prototype.
+- **July 2019**: Made the [create-landscape-app](https://github.com/urbit/create-landscape-app) tool to help developers rapidly prototype by generating full-stack boilerplate. Maintained from then onward.
+- **June 2019**: Started contract with the [Tlon Corporation](https://tlon.io) for the Urbit project.
+- **April 2019**: Released “[Charity](http://lapsedcatholics.bandcamp.com/album/charity),” an EP with Lapsed Catholics.
+- **December 2018**: Released “[Hetaera](http://lapsedcatholics.bandcamp.com/album/hetaera)”, an LP with Lapsed Catholics.
+- **September 2018**: Released “[Sol Hemochroma](https://aetherinteractive.itch.io/sol-hemochroma),” a 30-minute visual novel, with Aether Interactive.
+- **June 2018**: Released “[Subserial Network](https://aetherinteractive.itch.io/subserial-network),” a 3-hour experimental narrative game, with Aether Interactive for Humble Bundle’s Monthly package.
+- **August 2017**: Released [“LOCALHOST](https://aetherinteractive.itch.io/localhost),” a 30-minute experimental narrative game with Aether Interactive.
+- **May 2017**: Released “[Arc Symphony](https://aetherinteractive.itch.io/arc-symphony),” a short Usenet simulator written in Twine (with its own ARG campaign), with Aether Interactive.
+- **January 2017**: Released [“Forgotten](https://aetherinteractive.itch.io/forgotten),” a CGA-flavoured digital horror game written in Twine.
+- **December 2015**: Released “[Sonic OC 7](https://aetherinteractive.itch.io/sonic-oc-7),” a short vignette game based around a ghostly Macintosh and Sonic roleplayers.
+
+</div>
+
 ### stdout
 
 ```javascript

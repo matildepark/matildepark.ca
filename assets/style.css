@@ -178,10 +178,6 @@ ul {
   margin-bottom: 1rem
 }
 
-ul li a {
-  background: 0 0 !important;
-}
-
 main h1,
 main h2,
 main h3 {
@@ -582,4 +578,21 @@ a.project-link:hover {
     width: calc(100% + 10vw);
     margin-left: -5vw
   }
+}
+
+div#history {
+  overflow: scroll;
+  max-height: 500px;
+  border-top: 1px solid #000;
+  border-bottom: 1px solid #000;
+}
+
+#history ul {
+    list-style-type: none;
+    font-size: 0.8rem;
+    margin: 0;
+}
+
+#history ul li {
+  margin: 1rem 0;
 }

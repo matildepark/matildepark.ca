@@ -63,9 +63,6 @@ done
 cd ../../about
 pandoc -f markdown -t html index.md -o ../temp/about/index.html
 
-cd ../cv
-pandoc -f markdown -t html index.md -o ../temp/cv/index.html
-
 cd ..
 cp -R projects temp
 

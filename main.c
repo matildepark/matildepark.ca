@@ -21,7 +21,6 @@ char *html_head =
 char *html_header =
   "<nav>\n\t<a class='site-title highlighter' href='/'>matilde park</a>\n\t"
   "<li><a href='/about'>about</a></li>\n\t"
-  "<li><a href='/cv'>curriculum vitae</a></li>\n\t"
   "<li><a href='/projects'>projects</a></li>\n\t"
   "<li><a href='/posts'>weblog</a></li></nav>\n\t";
 
