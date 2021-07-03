@@ -11,7 +11,7 @@
 char *html_head =
   "<!DOCTYPE html>\n<html lang='en'>\n\t<head>\n\t\t<meta charset='utf-8'/>\n\t\t"
   "<meta name='viewport' content='width=device-width, initial-scale=1'/>\n\t\t"
-  "<meta name='twitter:card' content='summary_large_image' />\n\t\t"
+  "<meta name='twitter:card' content='summary' />\n\t\t"
   "<meta name='twitter:site' content='@matildepark_' />\n\t\t"
   "<meta name='twitter:creator' content='@matildepark_' />\n\t\t"
   "<meta name='twitter:title' content=\"%s / matilde park\" />\n\t\t"
