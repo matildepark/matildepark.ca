@@ -41,14 +41,10 @@ blockquote cite {
   font-style: normal
 }
 
-blockquote p cite a, blockquote p cite a.footnote-ref {
-  background-color: transparent;
+main blockquote p cite a, main blockquote p cite a.footnote-ref {
+  background: transparent;
   color: #181818;
   text-decoration: underline
-}
-
-blockquote a.footnote {
-  color: #181818
 }
 
 code {
@@ -626,4 +622,8 @@ h5.separator a {
   background: none !important;
   text-decoration: underline;
   color: inherit !important;
+}
+
+a.footnote-back {
+background: transparent !important;
 }
