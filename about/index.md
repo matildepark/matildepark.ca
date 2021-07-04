@@ -17,7 +17,7 @@ I have an academic background in film and media theory + history. I apply it wit
 <div id="history">
 
 - **July 2021**: Implementing the 2021 redesign of urbit.org, migrating to a new build in next.js.
-- **May 2021**: Began [introducing continuous integration tests](https://github.com/urbit/urbit/pull/4853) for the Landscape codebase.
+- **May 2021**: After a few months of introducing integration tests in continuous deployment (front-end) and on Ethereum testnet (for full-stack changes or data migrations), added several continuous integration tests for Landscape, preventing type errors and visual regressions.
 - **March 2021**: Gave a talk, “[Pressure and Protolith](https://www.youtube.com/watch?v=XjIDZQUZZtE),” on the history of the Landscape product, its fundamental decisions and where it placed itself in the Urbit ecosystem, alongside a brief technical overview of the userspace codebase.
 - **February 2021**: Introduced a [direct messages](https://github.com/urbit/urbit/pull/4363) view in Landscape.
 - **January 2021**: Shepherded a continuously deployed, [bleeding-edge update stream](https://urbit.org/blog/metaphase/) for Landscape developers.
