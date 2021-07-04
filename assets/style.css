@@ -42,7 +42,7 @@ blockquote cite {
 }
 
 main blockquote p cite a, main blockquote p cite a.footnote-ref {
-  background: transparent;
+  background: transparent !important;
   color: #181818;
   text-decoration: underline
 }
