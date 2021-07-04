@@ -35,13 +35,18 @@ I have an academic background in film and media theory + history. I apply it wit
 - **October 2019**: Main developer on [the 2019 redesign of urbit.org](https://github.com/urbit/urbit.org/pull/227).
 - **September 2019**: Wrote "[Landscape: a Portrait](https://urbit.org/blog/landscape-a-portrait/)," a blog post on where we intend to take the Landscape product after its initial “Modulo” prototype.
 - **July 2019**: Made the [create-landscape-app](https://github.com/urbit/create-landscape-app) tool to help developers rapidly prototype by generating full-stack boilerplate. Maintained from then onward.
-- **June 2019**: Started contract with the [Tlon Corporation](https://tlon.io) for the Urbit project.
+
+##### June 2019: Started contract with [Tlon Corporation](https://tlon.io) {.separator}
+
 - **April 2019**: Released “[Charity](http://lapsedcatholics.bandcamp.com/album/charity),” an EP with Lapsed Catholics.
 - **December 2018**: Released “[Hetaera](http://lapsedcatholics.bandcamp.com/album/hetaera)”, an LP with Lapsed Catholics.
 - **September 2018**: Released “[Sol Hemochroma](https://aetherinteractive.itch.io/sol-hemochroma),” a 30-minute visual novel, with Aether Interactive.
 - **June 2018**: Released “[Subserial Network](https://aetherinteractive.itch.io/subserial-network),” a 3-hour experimental narrative game, with Aether Interactive for Humble Bundle’s Monthly package.
 - **August 2017**: Released [“LOCALHOST](https://aetherinteractive.itch.io/localhost),” a 30-minute experimental narrative game with Aether Interactive.
 - **May 2017**: Released “[Arc Symphony](https://aetherinteractive.itch.io/arc-symphony),” a short Usenet simulator written in Twine (with its own ARG campaign), with Aether Interactive.
+
+##### May 2017: Founded [Aether Interactive](https://aether.in.net) {.separator}
+
 - **January 2017**: Released [“Forgotten](https://aetherinteractive.itch.io/forgotten),” a CGA-flavoured digital horror game written in Twine.
 - **December 2015**: Released “[Sonic OC 7](https://aetherinteractive.itch.io/sonic-oc-7),” a short vignette game based around a ghostly Macintosh and Sonic roleplayers.
 

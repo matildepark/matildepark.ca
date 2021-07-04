@@ -596,3 +596,34 @@ div#history {
 #history ul li {
   margin: 1rem 0;
 }
+
+h5.separator {
+  display: flex;
+  align-items: center;
+  width: 100%;
+  text-align: center;
+  font-size: 0.7rem;
+  font-weight: normal;
+  color: RGBA(113, 119, 238, 1);
+}
+
+h5.separator::before,
+h5.separator::after {
+  content: '';
+  flex: 1;
+  border-bottom: 1px solid RGBA(113, 119, 238, 1);
+}
+
+h5.separator:not(:empty)::before {
+  margin-right: .50em;
+}
+
+h5.separator:not(:empty)::after {
+  margin-left: .50em;
+}
+
+h5.separator a {
+  background: none !important;
+  text-decoration: underline;
+  color: inherit !important;
+}
