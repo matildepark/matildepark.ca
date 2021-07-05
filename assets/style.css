@@ -41,7 +41,7 @@ blockquote cite {
   font-style: normal
 }
 
-main blockquote p cite a, main blockquote p cite a.footnote-ref {
+main blockquote p cite a, a.footnote-ref {
   background: transparent !important;
   color: #181818;
   text-decoration: underline
