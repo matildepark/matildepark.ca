@@ -6,7 +6,7 @@
 
 I'm a software and interactive media developer based in Toronto. I'm a strong generalist, the dreaded "creative technologist," with experience working in (and sometimes leading) various teams in self-owned, creative and professional environments across tech.
 
-I'm interested in the burgeoning decentralised web; "play" and user interfaces; enacting stories through interfaces; and rethinking the role and social integration of personal computers in our everyday lives. Currently I'm helping build [Urbit](https://urbit.org) with [Tlon](https://tlon.io), leading the Landscape team.
+I'm interested in decentralised computing and networks; "play" and user interfaces; user interface composability; and rethinking the role and social integration of personal computers in our everyday lives. Currently I'm helping build [Urbit](https://urbit.org) with [Tlon](https://tlon.io), leading the Landscape team.
 
 Previously, I've written and directed video games with [Aether Interactive](http://aether.in.net), creating experimental narratives using computer interface tropes. Our games, as well as my side projects, can be found [on itch.io](http://aetherinteractive.itch.io). I've also written and performed music as a member of [Lapsed Catholics](http://lapsedcatholics.bandcamp.com).
 
